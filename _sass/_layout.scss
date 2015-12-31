@@ -223,9 +223,15 @@
     }
 
     #right {
+        background-color: rgba(0, 0, 0, 0.3);
         border-left: 1px solid rgba(255,255,255,0.5);
         display: inline-block;
-        padding-left: 20px;
+        padding: 0 10px 0 20px;
+    }
+
+    #right p {
+        font-size: 1.4em;
+        margin-bottom: 5px;
     }
 
     @include media-query($on-laptop) {
@@ -246,13 +252,18 @@
         #left {
             float: left;
             padding-right: 15px;
-            width: 420px;
+            width: 440px;
         }
 
         #right {
             border-left: 1px solid rgba(255,255,255,0.5);
             display: inline-block;
             padding-left: 20px;
+        }
+
+        #right p {
+            font-size: 1em;
+            margin-bottom: 5px;
         }
     }
 
