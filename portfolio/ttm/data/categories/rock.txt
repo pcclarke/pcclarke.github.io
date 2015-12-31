@@ -1,0 +1,90 @@
+***ROCK 'N ROLL CATEGORY BY PATRICK C CLARKE
+***
+CAT_Rock
+***
+***SENTENCES***
+***
+SEN_While at a VIP party for fans of %OLDBND, %CLBRTY drunkenly asks you to %HELPAC. Does this seem like a good idea?
+SEN_%CURBND has dedicated their cover of '%SONNAM' to you. What do you think motivated them?
+SEN_%OLDBND are having a reunion, and would like you to %HELPAC. Would you want to join?
+SEN_In a recent lawsuit, former members of %OLDBND have sued %CURBND for sampling their music. How would you resolve this dispute?
+SEN_While playing '%SONNAM' in Guitar Hero, you notice that all the parts about sex and drugs have been cut out of the song. Do you still enjoy the song?
+***
+***LIBS***
+***
+***ability
+ABILTY_absolute pitch
+***animals
+ANIMAL_hound dog
+***artwork
+ARTWRK_velvet Elvis
+***bad situations
+BADSIT_caught listening to Jimmy Buffet
+***bands, current
+CURBND_The Arcade Fire
+CURBND_Coldplay
+CURBND_The Flaming Lips
+CURBND_Radiohead
+CURBND_TV on the Radio
+CURBND_U2
+***bands, old
+OLDBND_The Pixies
+OLDBND_Siouxie and the Banshees
+OLDBND_The Smiths
+OLDBND_The Velvet Underground
+OLDBND_The Doobie Brothers
+***challenges
+CHALLE_performed a two-hour guitar solo
+CHALLE_played every song in Guitar Hero on extreme difficulty
+CHALLE_sang Stairway to Heaven in a Karaoke bar
+***celebrities
+CLBRTY_Bono
+CLBRTY_Lemmy
+CLBRTY_Chris Martin
+CLBRTY_Ozzy Osbourne
+***group identity, singular
+GROUPI_headbanger
+GROUPI_metalhead
+GROUPI_rockabilly
+***group identities
+GROUPS_headbangers
+GROUPS_metalheads
+GROUPS_rockabillies
+***harmful actions
+HARMAC_smash their guitar
+***helpful actions
+HELPAC_rock out with them
+***movie genre
+MOVIEG_rock documentary
+***movie names
+MOVNAM_This is Spinal Tap
+MOVNAM_Wayne's World
+MOVNAM_The Great Rock 'n' Roll Swindle
+***object, common
+COMOBJ_guitar
+COMOBJ_drum set
+COMOBJ_microphone
+***object, valuable
+VALOBJ_Gibson Les Paul guitar
+***organization, general
+ORGNZN_heavy metal band
+***place, singular
+PLACEI_Graceland
+***place, plural
+PLACEP_Houses of the Holy
+***relation
+RELATN_band manager
+RELATN_drummer
+RELATN_lead guitarist
+***song names
+SONNAM_Airbag
+SONNAM_Blue Suede Shoes
+SONNAM_Hurt
+SONNAM_Monkey Gone to Heaven
+SONNAM_She Don't Use Jelly
+SONNAM_Smoke on the Water
+SONNAM_Tom Sawyer
+SONNAM_You're the One for Me, Fatty
+***vehicle names
+VEHNAM_Led Zepplin
+VEHNAM_Jefferson Starship

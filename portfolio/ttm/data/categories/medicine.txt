@@ -1,0 +1,103 @@
+***MEDICINE CATEGORY BY PATRICK C CLARKE
+***
+CAT_Medicine
+***
+***SENTENCES***
+***
+SEN_You've discovered that your %RELATN only has weeks to live and is asking you to %HELPAC one last time. Would you?
+SEN_While performing surgery to remove your appendix, your doctor finds a %COMOBJ. How did this happen?
+SEN_During a poker game with %VILAIN, you drunkenly gamble away your spleen. Your doctor gives you two choices: receive a transplanted spleen from a %ANIMAL, or go to %VILAIN and %HARMAC. Which do you choose?
+SEN_The %ORGNZG needs you to give a motivational speech to volunteers who will have %CHALLE to raise money for a local hospital.
+SEN_While visiting the %PLACEP, you encounter an old apothecary who tells you that if you kill and eat a %SCARYT, you will gain %ABILTY. Would you?
+***
+***LIBS***
+***
+***ability
+ABILTY_eternal youth
+ABILTY_immortality
+ABILTY_immunity to disease
+ABILTY_regenerative limbs
+***animals
+ANIMAL_serpent
+***artwork
+ARTWRK_Anatomy Lesson of Dr. Tulp
+ARTWRK_Rod of Asclepius
+***bad situations
+BADSIT_diagnosed with the bubonic plague
+BADSIT_impoverished by medical bills
+***beliefs
+BELIEF_holism
+BELIEF_vitalism
+***challenges
+CHALLE_given ten litres of blood
+CHALLE_performed brain surgery
+***celebrities
+CLBRTY_Mehmet Oz
+CLBRTY_Sanjay Gupta
+***companies
+COMPNY_Blue Cross
+***drinks
+DRINKY_cough syrup
+DRINKY_NyQuil
+DRINKY_Pepto Bismol
+***fictional characters
+FICHAR_Dr. Doug Ross
+FICHAR_Doctor Zoidberg
+FICHAR_House
+FICHAR_Doogie Howser
+***important figures
+FIGURE_chief of surgery
+FIGURE_surgeon general
+***financial assets
+FINAST_health insurance
+FINAST_life insurance
+***great names
+GRTNAM_At Your Cervix
+GRTNAM_Banana Allergy
+GRTNAM_Wrinkle Remover
+GRTNAM_Sphincter Quits
+***harmful actions
+HARMAC_amputate a limb
+***helpful actions
+HELPAC_prescribe medication
+***movie names
+MOVNAM_Outbreak
+MOVNAM_Patch Adams
+***objects, common
+COMOBJ_defibrillator
+COMOBJ_scapel
+COMOBJ_stethoscope
+COMOBJ_syringe
+***objects, valuable
+VALOBJ_MRI scanner
+VALOBJ_X-ray machine
+***organization, nonspecific
+ORGNZN_clinic
+***organization, specific
+ORGNZG_American Medical Association
+ORGNZG_Canadian Medical Association
+***place, plural
+PLACEP_Betty Ford Clinic
+PLACEP_Johns Hopkins Hospital
+PLACEP_Mayo Clinic
+***relation
+RELATN_chiropractor
+RELATN_doctor
+RELATN_nurse
+RELATN_optometrist
+RELATN_proctologist
+***requests
+REQUST_double my medicine
+REQUST_give me the drugs
+***scary things
+SCARYT_botfly
+SCARYT_cancer
+SCARYT_guinea worm
+***TV shows
+TVSHOW_Dr. Quinn, Medicine Woman
+TVSHOW_Scrubs
+***villains
+VILAIN_Jack Kevorkian
+VILAIN_Josef Mengele
+***vile actions
+VILEAC_medical malpractice

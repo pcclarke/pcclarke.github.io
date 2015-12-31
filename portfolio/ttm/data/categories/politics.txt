@@ -1,0 +1,163 @@
+***POLITICS CATEGORY BY PATRICK C CLARKE
+***
+CAT_POLITICS
+***
+***SENTENCES***
+***
+SEN_A politician who you support has come out as a %GROUPI. Would you still vote for them?
+SEN_%CLBRTY has announced that they will be running to become the next %FIGURE of the %PLACEP. Will you support them?
+SEN_Imagine you are %FIGURE %CLBRTY. How would you lead your country?
+SEN_The %GROUPS are holding a leadership conference to select their next leader. Explain why you could lead them to become the next %FIGURE of the %GROUPS.
+SEN_What if it turned out that your favourite song by %OLDBND was written to support %BELIEF. Could you still enjoy the song?
+SEN_The %GROUPS in %PLACEI are fighting a desperate battle against the brutal %FIGURE who rules their country. Should we support their cause?
+***
+***LIBS***
+***
+***abilities
+ABILTY_charisma
+ABILTY_protection from scandal
+***animals
+ANIMAL_donkey
+ANIMAL_elephant
+ANIMAL_political animal
+***artwork
+ARTWRK_Liberty Leading the People
+ARTWRK_Napoleon Crossing the Alps
+ARTWRK_Washington Crossing the Delaware
+***bad situations
+BADSIT_last place in an election
+BADSIT_nailed by Stephen Colbert
+BADSIT_surrounded by angry protestors
+BADSIT_subjected to political ads
+***beliefs
+BELIEF_conservatism
+BELIEF_communism
+BELIEF_liberalism
+BELIEF_libertarianism
+BELIEF_socialism
+***bands, current
+CURBND_Green Day
+CURBND_Megadeth
+CURBND_REM
+***bands, old
+OLDBND_The Clash
+OLDBND_Crass
+OLDBND_Dead Kennedys
+OLDBND_Public Enemy
+OLDBND_Rage Against the Machine
+***celebrities
+CLBRTY_Angela Merkel
+CLBRTY_Barack Obama
+CLBRTY_David Cameron
+CLBRTY_Hu Jintao
+CLBRTY_Silvio Berlusconi
+CLBRTY_Stephen Harper
+CLBRTY_Vladmir Putin
+***challenges
+CHALLE_campaigned for a politician
+CHALLE_exposed a political scandal
+CHALLE_won an election
+CHALLE_visited the nation's capital
+***fictional characters
+FICHAR_John Galt
+***important figures
+FIGURE_chairman
+FIGURE_chancellor
+FIGURE_czar
+FIGURE_dictator
+FIGURE_emperor
+FIGURE_kaiser
+FIGURE_king
+FIGURE_mayor
+FIGURE_president
+FIGURE_prime minister
+FIGURE_sultan
+FIGURE_supreme leader
+***financial assets
+FINAST_government bonds
+***great names
+GRTNAM_E Pluribus Unicorn
+***group identity, singular
+GROUPI_communist
+GROUPI_liberal
+GROUPI_religious fundamentalist
+GROUPI_libertarian
+***group identity, plural
+GROUPS_communists
+GROUPS_democrats
+GROUPS_religious fundamentalists
+GROUPS_liberals
+GROUPS_libertarians
+GROUPS_republicans
+GROUPS_tories
+***harmful action
+HARMAC_expose their dirty secrets to the tabloids
+***helpful actions
+HELPAC_campaign for them
+***movie genres
+MOVIEG_political drama
+***movie names
+MOVNAM_Bowling for Columbine
+MOVNAM_Syriana
+MOVNAM_Team America: World Police
+***objects, common
+COMOBJ_ballot box
+COMOBJ_tiny flag
+***organizations, criminal
+ORGNZC_Committee for the Re-Election of the President
+***organizations, general
+ORGNZN_political party
+ORGNZN_think tank
+ORGNZN_advocacy group
+ORGNZN_lobby
+ORGNZN_bureaucracy
+ORGNZN_government
+***organizations, specific
+ORGNZG_Communist Party
+ORGNZG_Conservative Party
+ORGNZG_Green Party
+ORGNZG_Liberal Party
+ORGNZG_New Democratic Party
+ORGNZG_Bloc Quebecois
+ORGNZG_Libertarian Party
+ORGNZG_Marxist-Leninist Party
+***place, singular
+PLACEI_Canada
+PLACEI_Great Britain
+PLACEI_France
+PLACEI_Australia
+PLACEI_Spain
+PLACEI_China
+PLACEI_India
+PLACEI_Israel
+PLACEI_Egypt
+PLACEI_Pakistan
+PLACEI_Nigeria
+PLACEI_Mexico
+***place, plural
+PLACEP_Gambia
+PLACEP_Maldives
+PLACEP_Netherlands
+PLACEP_United Arab Emirates
+PLACEP_United States of America
+***relation
+RELATN_Member of Parliament
+RELATN_senator
+***request
+REQUST_vote for me
+***scary things
+SCARYT_The Taxman
+***song names
+SONNAM_Killing in the Name
+***TV shows
+TVSHOW_The Daily Show
+TVSHOW_The National with Peter Mansbridge
+TVSHOW_The O'Reilly Factor
+TVSHOW_The West Wing
+***vile acts
+VILEAC_bribery
+VILEAC_corruption
+***villains
+VILAIN_Hitler
+VILAIN_Stalin
+VILAIN_Pol Pot

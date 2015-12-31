@@ -1,0 +1,71 @@
+***SCIENTOLOGY CATEGORY BY PATRICK C CLARKE
+***
+CAT_Scientology
+***
+***SENTENCES***
+***
+SEN_While promoting their new %MOVIEG movie, %CLBRTY has come out as a scientologist. Would you still watch their movie?
+SEN_Your %RELATN is a member of the elite scientologist %ORGNZN, and is offering you a free %COMOBJ if you join. Is that enough?
+SEN_%CLBRTY has hired you to promote scientology to %GROUPS. How will you do so?
+SEN_You are a famous %FIGURE who has gained %ABILTY because of your faith in scientology. What powers we would get if we converted to scientology?
+SEN_Your body has been infested by the spirit of a confused %ANIMAL because a %SCARYT blew up a volcano that killed it. Deliver a speech that will convince the spirit to get lost!
+***
+***LIBS***
+***
+***ability
+ABILTY_increased body weight
+ABILTY_spiritual immortality
+ABILTY_psychokinesis
+***animals
+ANIMAL_octopus
+ANIMAL_clam
+ANIMAL_squirrel
+***bad situations
+BADSIT_forced to read Dianetics
+BADSIT_hypnotized by Tom Cruise
+***belief
+BELIEF_Scientology
+***challenges
+CHALLE_achieve Operating Thetan Level VII
+CHALLE_watched Battlefield Earth
+CHALLE_reincarnated in a different galaxy
+***celebrity
+CLBRTY_Beck
+CLBRTY_Tom Cruise
+CLBRTY_John Travolta
+***important figure
+FIGURE_ethics officer
+***harmful actions
+HARMAC_kill them with volcanos
+HARMAC_deprive them of property
+HARMAC_sue them
+***helpful actions
+HELPAC_offer them a free stress test
+HELPAC_audit their spirit
+***movie genres
+MOVIEG_L. Ron Hubbard book adaptation
+***movie names
+MOVNAM_Battlefield Earth
+***object, common
+COMOBJ_E-meter
+COMOBJ_hydrogen bomb
+***organization, nonspecific
+ORGNZN_Anonymous protest group
+***organization, specific
+ORGNZG_Sea Organization
+ORGNZG_Rehabilitation Project Force
+ORGNZG_Narconon
+ORGNZG_Galactic Confederacy
+***relation
+RELATN_spiritual auditor
+***scary things
+SCARYT_Scientologist lawyer
+SCARYT_evil galactic overlord
+***group identities
+GROUPS_actors
+GROUPS_musicians
+GROUPS_celebrities
+***vehicle names
+VEHNAM_Freewinds
+***vilains
+VILAIN_Xenu

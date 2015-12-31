@@ -1,0 +1,84 @@
+***ECONOMICS CATEGORY BY PATRICK C CLARKE
+CAT_Economics
+***
+***SENTENCES***
+***
+SEN_Would you buy shares in %COMPNY?
+SEN_An economist has discovered that %GROUPS are 25 percent more likely to buy a %COMOBJ. Can you explain her findings?
+SEN_Your %RELATN has developed an algorithm that uses a %ANIMAL to predict the stock market. Would you follow their investment advice?
+SEN_Your have been recruited by %PLACEI to direct their economy as %FIGURE. What sorts of policies would you enact?
+SEN_You read in the news that %CLBRTY has moved to %PLACEI to escape high taxes. Does this seem fair?
+***
+***LIBS***
+***
+***abilities
+ABILTY_the ability to predict the stock market
+***animals
+ANIMAL_bear
+ANIMAL_bull
+***bad situations
+BADSIT_ruined by a stock market crash
+***beliefs
+BELIEF_Marxism
+***celebrities
+CLBRTY_Ben Bernanke
+CLBRTY_Tim Harford
+CLBRTY_Steven Levitt
+CLBRTY_Paul Krugman
+CLBRTY_Jeffrey Sachs
+***challenges
+CHALLE_earned a million dollars
+CHALLE_won the nobel prize in economics
+***companies
+COMPNY_Goldman Sachs
+COMPNY_Moody's
+COMPNY_Toronto Dominion Bank
+COMPNY_Royal Bank
+***drinks
+DRINKY_champagne
+***fictional characters
+FICHAR_Gordon Gekko
+***figures
+FIGURE_chief economist
+***financial assets
+FINAST_corporate stocks
+***great names
+GRTNAM_Best Response Strategy
+GRTNAM_Quantitative Easing
+GRTNAM_Stimulus Package
+***group identity, singular
+GROUPI_Keynesian
+GROUPI_monetarist
+***group identity, plural
+GROUPS_bankers
+GROUPS_Keynsians
+GROUPS_monetarists
+***movie names
+MOVNAM_The Smartest Guys in the Room
+MOVNAM_Wall Street
+***objects, common
+COMOBJ_stock chart
+***organization, government
+ORGNZG_International Monetary Fund
+ORGNZG_World Bank
+ORGNZG_World Trade Organization
+***organization, nonspecific
+ORGNZN_stock brokerage
+***places, singular
+PLACEI_Bay Street
+PLACEI_Hong Kong
+PLACEI_Singapore
+PLACEI_Wall Street
+PLACEI_Dubai
+***relations
+RELATN_economics professor
+RELATN_investment advisor
+***requests
+REQUST_give me a loan
+***song names
+SONNAM_If You've Got the Money, I've Got the Time
+SONNAM_Mo' Money, Mo' Problems
+SONNAM_Money for Nothing
+***TV Shows
+TVSHOW_The Apprentice
+TVSHOW_Dragon's Den

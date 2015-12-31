@@ -1,0 +1,108 @@
+***STAR TREK CATEGORY BY PATRICK C CLARKE
+***
+CAT_Star Trek
+***
+***SENTENCES***
+***
+SEN_As the %FIGURE of the starship %VEHNAM, give a motivating speech to your crew before a battle with fearsome %GROUPS.
+SEN_Your friend has written a Star Trek fan fiction story in which %FICHAR takes command of the starship %VEHNAM, encounters a %GROUPI and decides to %HARMAC. Narrate their story for us.
+SEN_In Star Trek there is a mirror universe, where everything is the same but more evil. And everyone has goatees. What would %PLACEI be like in the evil universe?
+SEN_%CLBRTY has recently declared that they would rather shove a %COMOBJ into their eyes than watch another episode of Star Trek. Do you agree with them?
+SEN_A bunch of your friends have dressed up as %GROUPS for a Star Trek convention. Would you want to join them?
+***
+***LIBS***
+***
+***abilities
+ABILTY_faster than light travel
+***animals
+ANIMAL_tribble
+ANIMAL_ceti eel
+ANIMAL_horta
+***bad situations
+BADSIT_assimilated by the Borg
+BADSIT_caught in a time loop
+BADSIT_trapped in the evil universe
+***bands, old
+OLDBND_The Sunspots
+***challenges
+CHALLE_travelled to the centre of the galaxy
+CHALLE_boldly gone where no one has gone before
+CHALLE_won the Kobayashi Maru
+***celebrities
+CLBRTY_William Shatner
+CLBRTY_Leonard Nimoy
+CLBRTY_Patrick Stewart
+CLBRTY_Wil Wheaton
+CLBRTY_Chris Pine
+CLBRTY_Zachary Quinto
+***common objects
+COMOBJ_tricorder
+COMOBJ_combadge
+COMOBJ_visor
+***drink
+DRINKY_earl grey tea
+DRINKY_romulan ale
+***fictional characters
+FICHAR_James T. Kirk
+FICHAR_Spock
+FICHAR_Dr. McCoy
+FICHAR_Sulu
+FICHAR_Captain Picard
+FICHAR_Data
+FICHAR_Worf
+FICHAR_Seven of Nine
+***important figures
+FIGURE_captain
+FIGURE_Starfleet admiral
+***financial assets
+FINAST_gold-pressed latinum
+***group identity, singular
+GROUPI_Klingon
+GROUPI_Vulcan
+GROUPI_Ferengi
+GROUPI_Romulan
+GROUPI_Cardassian
+GROPUI_Bajoran
+***group identities
+GROUPS_Borg
+GROUPS_Klingons
+GROUPS_Vulcans
+GROUPS_Romulans
+GROUPS_Carassians
+GROUPS_Bajorans
+***harmful actions
+HARMAC_decapitate them with a bat'leth
+HARMAC_give them a Vulcan nerve pinch
+HARMAC_shoot them with a phaser on the kill setting
+***helpful actions
+HELPAC_mind meld with them
+***movie names
+MOVNAM_Star Trek
+MOVNAM_The Search for Spock
+MOVNAM_The Undiscovered Country
+***organizations, specific
+ORGNZG_United Federation of Planets
+ORGNZG_Klingon Empire
+ORGNZG_Romulan Empire
+***place, plural
+PLACEP_Alpha Quadrant
+***place, singular
+PLACEI_Cardassia
+PLACEI_Fereginar
+PLACEI_Qo'noS
+PLACEI_Romulus
+PLACEI_Vulcan
+***scary things
+SCARYT_giant space amoeba
+SCARYT_Gorn
+SCARYT_salt vampire
+***vehicle names
+VEHNAM_Defiant
+VEHNAM_Enterprise
+VEHNAM_Excelsior
+VEHNAM_Voyager
+***villains
+VILAIN_Q
+VILAIN_Khan
+VILAIN_Evil Spock
+VILAIN_Nero

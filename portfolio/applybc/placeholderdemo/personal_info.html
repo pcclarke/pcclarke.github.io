@@ -1,0 +1,342 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <meta http-equiv="keywords" content="PUT KEYWORDS HERE -dfd" />
+    
+    <meta name="description" content="" />     
+    <title>
+    Personal Information - ApplyBC
+    </title> 
+   
+	<link  media="screen" rel="stylesheet" type="text/css" href="web/css/applybc_sfu.css"/>
+	<style>
+		input.text {
+		    position: relative;
+		    display: -moz-inline-box; /* ff2 */
+		    display: inline-block;
+		    *display: inline; /* ie6&7 */
+		    zoom: 1;
+		    padding: 0.5em 0.4375em;
+		    vertical-align: top;
+		    -khtml-box-sizing: content-box;
+		    -webkit-box-sizing: content-box;
+		    -moz-box-sizing: content-box;
+		    box-sizing: content-box;
+		    -khtml-appearance: none;
+		    -moz-appearance: none;
+		    width: 22.5em;
+		}
+		
+		input.text:-moz-first-node { /* ff hack - fix jacked line heights */
+		    padding-top: 6px;
+		    padding-bottom: 4px;
+		}
+		
+		/** input wrapper */
+		.input-wrapper {
+		    position: relative;
+		    display: -moz-inline-box;
+		    display: inline-block;
+		    *display: inline; /* ie6&7 */
+		    height: 1.7em;
+		    zoom: 1;
+		    margin: .3em 0;
+		    border: .08em solid #bbb;
+		    border-radius: 0.3125em;
+		    background: #fff;
+		    vertical-align: middle;
+		}
+		
+		.input-wrapper input.text {
+		    z-index: 2;
+		    margin: 0;
+		    border: 0;
+		    background: transparent;
+		    *background: url(web/images/t.png); /* ie7 does weird stuff with transparent background, also please don't deep link to this image from your code */
+		}
+		
+		.input-wrapper label {
+			color: #555555;
+		    z-index: 1;
+		    position: absolute;
+		    height: 1.5em;
+		    padding: .3em 0.4375em;
+		    font-size: 0.8125em;
+		    overflow: hidden;
+		}
+		
+		.input-wrapper.focus label {
+		    filter:alpha(opacity=50);
+		    opacity: 0.4;
+		}
+		
+		.input-wrapper.filled label {
+			color: black;
+		    display: none;
+		}
+		
+		#header {
+			background-color: white;
+			border-bottom: 1px dotted #939598;	
+			padding: .5em 0 .5em 0;
+			/*position: fixed;*/
+			top: 0;
+			width: 100%;
+			z-index: 10000;
+		}
+
+		#header ul {
+			display: none;
+		}
+	
+		#header-inner
+		{
+			max-width: 1440px;
+			margin: 0 auto;
+		}
+	
+		#header strong {
+			display: inline;
+			font-size: 1em;
+			font-weight: 700;
+			margin: 0 10% 0 2%;
+		}
+	
+		#header p {
+			display: inline;
+			font-size: 1em;
+			font-weight: 300;
+			margin-right: 10%;
+		}
+	</style>
+</head>
+  
+<body>
+	
+	<div id="header">
+		<div id="header-inner">
+			<a href="../../index.html"><strong>Patrick C. Clarke</strong></a>
+		</div>
+	</div>
+	<div id="container">
+		<div id="banner">
+		</div>
+       			
+		<div id="panel">
+		
+			<div id="account">
+				<p><a href=#>HELP</a> | <a href=#>LOG IN</a></p>
+			</div>	
+			<div id="userStatus">
+				<p class="user">You are not logged in.</p>	
+			</div>
+			
+			<div id="masthead">
+				<h1>Personal Information</h1>
+			</div>
+			
+			<ul class="progressBar">
+			<!-- TODO add ALT tags for all progress images. -->
+				<li class="current-step"><img id="current" src="web/images/progressBar-left-bg.png" alt="Progress Line" /><img id="dot" src="web/images/progress-dot.png" alt="Dot" /><div class="TextCurrent"><p>1. Personal Information</p></div></li>
+				<li class="incomplete"><div class="TextIncomplete"><a href="#">2. Contact Information</a></div></li>
+				<li class="incomplete"><div class="TextIncomplete"><a href="#">3. Academic History</a></div></li>
+				<li class="incomplete"><div class="TextIncomplete"><a href="#">4. Program Selection</a></div></li>
+				<li class="incomplete"><div class="TextIncomplete"><a href="#">5. Additional Information</a></div></li>
+				<li class="incomplete"><div class="TextIncomplete"><a href="#">6. Submit and Pay</a></div></li>
+			</ul>
+
+			<h2 class="header">Identity</h2>
+			<div class="panelGroup">				
+				<div class="fieldPanel">	
+						<h3 class="minilabel">Legal names</h3>
+						<div class="input-wrapper">
+							<label for="firstName">First name(s)</label>
+		    				<input id="firstName" class="text" type="text" name="firstName">		
+	    				</div>		
+	    				<div class="input-wrapper">
+							<label for="middleName">Middle name</label>
+		    				<input id="middleName" class="text" type="text" name="middleName">		
+	    				</div>	
+					  	<p class="optional">(Optional)</p>
+					  	<div class="input-wrapper">
+							<label for="lastName">Last name</label>
+		    				<input id="lastName" class="text" type="text" name="lastName">		
+	    				</div>
+					  	
+					  	<h3 class="minilabel">Other names</h3>
+				  		<div class="input-wrapper">
+							<label for="preferredFirst">Preferred first or given name</label>
+		    				<input id="preferredFirst" class="text" type="text" name="preferredFirst">		
+	    				</div>				  				  	
+					  	<p class="optional">(Optional)</p>
+					  	<div class="input-wrapper">
+							<label for="formerLast">Former last or family name</label>
+		    				<input id="formerLast" class="text" type="text" name="formerLast">		
+	    				</div>	
+					  	<p class="optional">(Optional)</p>
+					  	
+					  	<h3 class="minilabel">Email address</h3>
+					  	<div class="input-wrapper">
+							<label for="email">Email</label>
+		    				<input id="email" class="text" type="text" name="email">		
+	    				</div>	
+	    				<div class="input-wrapper">
+							<label for="confirmEmail">Confirm email</label>
+		    				<input id="confirmEmail" class="text" type="text" name="confirmEmail">		
+	    				</div>	
+					  	
+					  	<div>
+					  	<p>&nbsp;</p>	  	
+					  	<h3 class="minilabel gender">Gender</h3>
+							<div class="options" style="display:inline;">
+							<input type="radio" id="Female" name="Female" value="Female" />
+							<label for = "Female">Female</label>
+							<input type="radio" id="Male" name="Male" value="Male" />
+							<label for = "Male">Male</label>
+							</div>					
+						</div>
+						
+						<h3 class="minilabel">Date of birth</h3>
+						<div>
+							<select class="field selectDOB">
+								<option value="Year" selected="selected">Year</option>
+							</select>
+							<select class="field selectDOB">
+								<option value="Month" selected="selected">Month</option>
+							</select>
+							<select class="field selectDOB">
+								<option value="Day" selected="selected">Day</option>
+							</select>   
+						</div>
+						
+							<h3 class="minilabel">Canadian social insurance number (SIN)</h3>
+						
+						<div>
+							<input type="text" class="field fieldSIN" title="this needs your blah blah" />
+							<input type="text" class="field fieldSIN" title="this needs your blah blah" />
+							<input type="text" class="field fieldSIN" title="this needs your blah blah" />
+						</div>
+						<p class="optional">(Optional)</p>
+
+				</div>
+				<div class="helpPanel">
+					<ul>
+						<li>INCLUDE MAX CHARACTER COUNT</li>					
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+						<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+						<li>Nullam ornare molestie nibh vulputate sagittis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridic</li>
+						<li>Nullam ornare molestie nibh vulputate sagittis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridic</li>
+						<li>Nullam ornare molestie nibh vulputate sagittis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridic</li>
+						<li>Nullam ornare molestie nibh vulputate sagittis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridic</li>				
+					</ul>
+				</div>				
+			</div>		
+				
+			<h2 class="header">Language/Citizenship</h2>
+			<div class="panelGroup">			
+				
+				<div class="fieldPanel">
+					<h3 class="minilabel">Primary language spoken at home</h3>
+					<select class="field selectMenu">
+						<option value="English" selected="selected">English</option>
+						<option value="Chinese">Chinese</option>
+						<option value="Greek">Greek</option>
+						<option value="Latin">"Latin"</option>
+					</select>
+					<h3 class="minilabel">Country of citizenship</h3>
+					<select class="field selectMenu">				
+						<option value="Canada" selected="selected">Canada</option>
+					</select>
+					<div>
+						<select class="field selectMenu">				
+							<option value="canadianStatus" selected="selected">Status in Canada if NOT a citizen</option>
+						</select>
+					</div>				
+					<p>&nbsp;</p>	
+				</div>
+				<div class="helpPanel">
+					<ul>
+						<li>INCLUDE MAX CHARACTER COUNT</li>
+						<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+						<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="panelAlignButton">			
+				<input type="button" class="buttonSaveAndContinue" value="Save and Continue" />
+			</div>
+												
+		</div>				
+		
+		
+	
+
+
+		<div id="footerInstitution"> 
+			<p>Undergraduate Admissions, Simon Fraser University, 8888 University Drive, Burnaby, B.C., Canada, V5A 1S6</p>
+	    </div>
+	    
+	    <div id="footerApplyBC"> 
+	    	<div>
+	    		<img src="web/images/applybc-resize.png">
+		    	<img src="web/images/bccampus-resize.png">
+		    </div>
+        	<p>Application service supplied by <a href="https://applybc.ca">ApplyBC.ca</a>, developed by <a href="http://www.bccampus.ca/">BCcampus</a>.</p>
+	    	
+	    </div>
+    
+    </div>	<!-- end of container -->
+
+<!-- For Field Placeholder -->
+	<script type="text/javascript" src="web/javascript/jquery-1.4.2.min.js"></script>	
+	<script type="text/javascript">
+	document.write("<p>My First JavaScript</p>");
+	(function($) {
+
+	    var parentSelector = '.input-wrapper',
+	        inputSelectors = [parentSelector + '>input.text', parentSelector + '>textarea'],
+	        len = inputSelectors.length,
+	        i;
+
+	    function update(force) {
+	        var $input = $(this),
+	            $parent = $input.parent(parentSelector);
+	        return $parent[force === true || $input.val() ? 'addClass' : 'removeClass']('filled');
+	    }
+
+	    function focus() {
+	        update.call(this).addClass('focus');
+	    }
+
+	    function blur() {
+	        update.call(this).removeClass('focus');
+	    }
+
+	    function keydown(evt) {
+	        var c = evt.keyCode;
+	        ((47 < c && c < 91) || (95 < c && c < 112) || (185 < c && c < 223)) && update.call(this, true);
+	    }
+
+	    $.fn.prepareInput = function() {
+	        return this.each(update);
+	    };
+
+	    for (i = 0; i < len; i++) {
+	        $(inputSelectors[i]).live('focus', focus).live('blur', blur).live('keyup', update).live('click', update).live('keydown', keydown);
+	    }
+
+	    $(function() {
+	        for (i = 0; i < len; i++) {
+	            $(inputSelectors[i]).prepareInput();
+	        }
+	    });
+
+	})(jQuery);
+	</script>
+	
+<!-- ADD GA CODE -->
+
+</body>
+</html>

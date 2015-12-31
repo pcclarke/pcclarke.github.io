@@ -1,0 +1,777 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Removes ALL default formatting */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	background-color: #A7A8A0;
+	font-family: "Lucida Sans", Lucida, Helvetica, Arial, Verdana, sans-serif;	
+	font-weight: normal;
+	color: #555555;
+}
+
+#container {    
+	background-color: #C7C7C7;
+	border-radius: 0px 0px 10px 10px;
+    margin: 0px auto 0px auto;
+    overflow: hidden;
+    width: 61.25em; /* 980px; */
+}
+
+#banner {
+    background: url("../images/banner-top.png") no-repeat scroll right center #6D6D64;
+    height: 4.6875em; /* 75px; */
+}
+
+#panel {
+	-moz-box-shadow: 5px 5px 3px #939598;
+	-webkit-box-shadow: 5px 5px 3px #939598;
+	box-shadow: 5px 5px 3px #939598;
+	margin: 0 3.25em 0px 3.25em; /* 52px; */
+	background-color: #FFFFFF;
+	float: left;
+	overflow: hidden;
+	padding: 0 4.0625em 0 4.0625em; /* 65px; */
+	width: 46.625em; /* 746px; */
+}
+
+#userStatus {
+	display: inline;
+	float: right;
+	font-size: 0.6875em; /* 12px; */	
+	text-align: right;	
+	margin-top: .5em;	
+}
+#userStatus p.user {
+	display: inline;
+	padding-right: 2em;
+}
+
+#account {	
+	display: inline;
+	float: right;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #bcbec0) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #bcbec0 100% );
+	border-radius: 0px 0px 0px 5px;
+	color: grey;
+	font-size: 0.6875em; /* 11px; */
+	font-weight: normal;
+	margin-right: -6.0625em; /* -65px;*/
+	padding: .5em 2em .5em 2em;
+	text-align: center;
+}
+a {
+	color: #0054a6;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration:underline;
+}
+a:visited {
+	color: #25316e;
+}
+
+.header {
+	clear:both;	
+	color: #000000;
+	/* font-size: 18px; is now based on browser default font-size */
+	font-size: 1em; /* 18px */
+	font-weight: normal;
+	margin-bottom: .2em;
+	padding-top: 1.2em;
+}
+
+div.panelGroup {
+	background-color: #FFFFFF;
+	margin: 0 auto 0 auto;
+	overflow: hidden;
+	border-width: .1em;
+	border-style: solid;
+	border-color: #c7c9cb;
+	border-radius: 10px;
+	-moz-box-shadow: 5px 5px 3px #C7C7C7;
+	-webkit-box-shadow: 5px 5px 3px #C7C7C7;
+	box-shadow: 5px 5px 3px #C7C7C7;
+	width: 100%
+}
+div.panelGroup p {
+	clear: both;
+}
+
+.fieldPanel {
+	padding: 0 1.5em 32767px 1.5em;
+	width: 28.875em; /* 462px; */
+	float: left;
+	margin-bottom: -32767px;
+}
+
+.helpPanel {
+	background-color: #e7e8e5;
+	border-width: .1em;
+	border-style: solid;
+	border-color: #c7c9cb;
+	padding: .5em 1.5em 32767px 1em;
+	width: 10.6875em; /*171px;*/
+	float: right;
+	margin-bottom: -32767px;
+}
+.helpPanel ul {
+	padding-top: 1em;
+	padding-left: 1em;
+}
+.helpPanel li {
+	color: #555555;	
+	font-size: 0.6em; /* 11px; */
+	margin: 0 0 0.625em 0;
+}
+
+/* Placeholder CSS */
+.dimmed {
+    color: #ccc;
+}
+
+*.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* Field CSS */
+.fieldErrorBar {
+	color: #d93315;
+	font-size: 0.75em; /* 12 px */
+	padding-left: 1.25em; /* 20px; */
+	background-color: #f4bfbf;
+	margin-top: 2.5em;
+}
+
+.fieldError {
+	border-color: #d93315 !important; /* not sure why important is needed. todo: must investigate -dfd */
+}
+.fieldErrorText {
+	color: #d93315;
+	font-size: 0.68em; /* 11px */	
+	padding-left: 1.25em; /* 20px; */
+}
+.field {
+	border-width: .1em;
+	border-style: solid;
+	border-color: #c7c9cb;
+	border-radius: 5px;
+	font-size: 0.81em; /* 13px; */
+	width: 19.125em; /* 306px; */
+	height: 2.06em;
+	margin: 1em 0px 0px 0px;
+	padding-left: 0.65em;
+}
+
+.gender {
+	display:inline;
+}
+.fieldSIN {
+	width: 5.6em; /* 306px; */
+}
+
+.options {
+	font-size: 0.81em; /* 13px; */
+}
+
+.minilabel {
+	font-size: 0.8em; /* 13px; */
+	font-weight: normal;
+	margin: 2em 0 0 0;
+}
+
+.instructions {
+	font-size: 0.8125em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+			
+}
+
+.summaryInstructions {
+	font-size: 0.8125em;
+	margin-top: .5em;
+	margin-bottom: 0.5em;	
+}
+
+.clear {
+	clear:both;
+}
+
+/* SUBMIT AND PAY REVIEW
+----------------------------------------------------------------------------------------------------------------*/
+
+.divider {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: thin;	
+	border-style: solid;
+	border-color: #000000;	
+	margin-top: 0.8em;
+	margin-bottom: 0.5em;
+}
+
+.reviewHeader {
+	float: left;
+	color: #000000;
+	font-size: 1.125em;
+	font-weight: normal;
+	margin-top: 1.2em;
+	margin-bottom: 0.2em;
+}
+.reviewTitle {
+	color: #000000;
+	font-size: 1.0em;
+	font-weight: normal;	
+	margin-top: 1.5em;
+	margin-bottom: 0.8em;
+
+}
+
+.reviewText p {
+	color:	8a8a83;
+	font-size: 0.75em;
+	font-weight: normal;	
+	margin-bottom: 0.8em;
+}
+
+#warningHighSchool {
+	color: #a6192e;
+}
+#permissionRelease {
+	font-weight: bold;
+}
+
+.editButton {
+	float: right;
+	margin-top: 1em;	
+	font-size: 0.725em !important; 	
+}
+
+.applicationNumber {
+	color: #a6192e;
+}
+/* PERSONAL INFORMATION ACCOUNT DETAILS
+----------------------------------------------------------------------------------------------------------------*/
+
+p#acct_details_instructions {
+	font-size: 0.8125em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+p#acct_details_account {
+	color: #a6192e;
+	font-size: 0.8125em;
+	line-height: 2em;
+}
+
+#acct_details_radio {
+	margin-top: 2em;
+}
+.acct_details_radio_buttons {
+	margin-top: 1em;
+}
+
+/* CONTACT INFORMATION
+----------------------------------------------------------------------------------------------------------------*/
+
+#streetAddress1 {
+	margin-top: 2em;
+}
+.fieldPhone {
+	width: 4.8em; /* A number chosen solely to line up with other fields */
+}
+p.phoneDash {
+	color: #555555;
+	display: inline;
+}
+.contactRadio {
+	margin-top: 2em;
+}
+.contactRadioLabel {
+	margin-right: 1em;
+}
+
+#contactName {
+	margin-top: 2em;
+}
+.selectMenu {
+	width: 20em; /* Intended to be 306px, adjusted to due to different padding/margins */
+}
+.selectProvince {
+	width: 20em; /* Intended to be 306px, adjusted to due to different padding/margins */
+}
+
+
+/* ACADEMIC HISTORY REVIEW
+----------------------------------------------------------------------------------------------------------------*/
+
+.penOuac {
+	color: #8a8a83;	
+    font-size: 0.8125em;;
+    font-weight: normal;
+    margin-bottom: 0.8em;
+    margin-top: 1.5em;
+}
+
+div.schoolEntry {
+	line-height: 1.75em;
+	float:left; 
+	width: 25em; 
+	font-size: 0.8em;
+}
+
+div.buttonPositionRight {		/* academic history review.html */
+	float: right;
+}
+
+#ahehOutline {
+	height: 6em;
+	width: 24.2em;
+}
+
+#ehList {
+	font-size: 0.8em; /* 13px; */
+	font-weight: normal;
+	margin-top: .2em;
+	margin-bottom: 1.5em;
+}
+
+.ehRadioLabel {
+	margin: 0 1em 0 0;
+}
+#ehMiniLabel {
+	margin: 2em 0 1.5em 0;
+}
+
+/*PROGRAM SELECTION
+----------------------------------------------------------------------------------------------------------------*/
+
+.psRadio {
+	margin-top: 1.5em;
+}
+.psRadioLabel {
+	float: right;
+	margin-left: 1em;
+	width: 33.5em;	
+}
+.psRadioBlock {
+	float: left;
+	margin-bottom: 1em;
+}
+.psRadioButton {
+	float: left;
+}
+#previousApplicationTerm {
+	width: 17em;
+}
+#previousApplicationYear {
+	width: 5em;
+}
+
+/* ADDITIONAL INFORMATION
+----------------------------------------------------------------------------------------------------------------*/
+
+#aboriginalIdentityList {
+	font-size: 0.8em; /* 13px; */
+	font-weight: normal;
+	margin-top: 1em;
+	margin-bottom: .5em;
+	padding-left: 3em;
+}
+#aboriginalIdentityList li {
+	line-height: 1.5em;
+}
+
+p.aiText {
+	font-size: 0.8em; /* 13px; */
+	font-weight: normal;
+	margin: 2em 0 2em 0;
+}
+
+.abiRadio {
+	margin-left: 1.75em;
+	margin-top: .5em;
+}
+.aiRadio {
+	margin-left: 0;
+	margin-top: .5em;
+}
+.aiRadioLabel {
+	margin: 0 1em 0 0;
+}
+
+.aboriginalQuestion {
+	font-size: 0.8em; /* 13px; */
+	font-weight: normal;
+	margin: 1em 0 .25em 1em;
+}
+
+#aboriginalIdentityOptional {
+	margin-left: 2.25em;
+}
+
+#aiConsentBox {
+	margin-right: 0.5em;
+}
+#aiConsentText {
+	display: inline;
+}
+#aiConsentText span {
+	text-decoration:underline;
+}
+#aiConsentDiv {
+	margin-top: 1.5em;
+}
+
+/* SELECTION MENUS
+----------------------------------------------------------------------------------------------------------------*/
+
+.selectGrade {
+	width: 20em;
+}
+.selectYearStarted {
+	width: 11em;
+}
+.selectMonthStarted {
+	width: 11em;
+}
+.selectYearCompleted {
+	width: 11em;
+}
+.selectMonthCompleted {
+	width: 11em;
+}
+
+.selectDOB {
+	width: 6.375em; /* 306px; */	
+}
+
+/* Optional: styles optional text */
+.optional {
+	color: #b6b7b1;
+	font-size: 0.6em; /* 10px; */
+	margin: 0.125em 0 .75em 1em;
+}
+
+/* MASTHEAD
+----------------------------------------------------------------------------------------------------------------*/
+
+#masthead {
+	margin: 2.56em auto 0 auto;
+	width: 46.5625em; /* 745px; */
+}
+#masthead h1 {
+	color: #a6192e;
+	font-size: 1.5em; /* 24px; */
+	font-weight: bold;
+	margin-top: .2em;
+}
+
+/* PROGRESS BAR
+----------------------------------------------------------------------------------------------------------------*/
+
+.progressBar {
+	height: 2em;
+	list-style: none outside none;
+	margin: 0 auto .5em auto;
+	padding: 0;
+}
+
+.progressBar li {
+	color: #b6b7b1;
+	float: left;
+	font: .625em "Lucida Sans", Lucida, Helvetica, Arial, Verdana, sans-serif;	
+	font-weight: bold;
+	overflow: hidden;
+	padding: .5em 2.25em 0 2.25em;
+	width: 7.8615em;
+}
+
+.progressBar .TextIncomplete {
+	background: url(../images/progressBar-incomplete-tick-bg.png) no-repeat center 0.6em; 
+	padding-top: 2em;
+	text-align: center;
+	width: 6.6em;
+}
+.progressBar .TextComplete {
+	background: url(../images/progressBar-tick-bg.png) no-repeat center 0.6em; 
+	padding-top: 2em;
+	text-align: center;
+	width: 6.6em;
+}
+.progressBar .TextCurrent {
+	text-align: center;
+	padding-top: .6em;
+	width: 6.6em;
+}
+
+.progressBar img#dot {
+	display: inline;
+}
+.progressBar img#current {
+	float: left;
+	margin: 0.05em 0 0 -47.5em;
+}
+
+.progressBar .incomplete {
+	background:  url(../images/progressBar-incomplete-bg.png) repeat-x 0 .55em;
+}
+
+.progressBar .completed {
+	background: url(../images/progressBar-completed-bg.png) repeat-x 0 .55em;
+	color: #6d6d64;
+}
+.progressBar .current-step {
+	background: url(../images/progressBar-incomplete-bg.png) repeat-x 0 .55em;
+	color: #6d6d64;
+}
+
+
+/* BUTTONS BUTTONS
+----------------------------------------------------------------------------------------------------------------*/
+.panelAlignButton {
+	padding: 1em 0;
+	text-align: right;	
+	width: 33.3em;
+	
+}
+
+.justifyFormButtons {
+	margin-top: 1.25em;
+	margin-left: 4.5em;
+	width: 32em; /* 512px; */		
+}
+
+.floatRight {
+	float: right;
+}
+.removeButton {
+	font-size:0.8em;
+}
+.addSchoolButton {
+	font-size:0.8em;
+}
+.greyButton {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c7c9cb), color-stop(1, #6d6d64) );
+	background:-moz-linear-gradient( center top, #c7c9cb 5%, #6d6d64 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c7c9cb', endColorstr='#6d6d64');
+	background-color:#c7c9cb;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:white;	
+	font-weight:normal;
+	padding:6px 24px;
+	text-decoration:none;
+	font-size: 1em;	
+}
+.greyButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6d6d64), color-stop(1, #c7c9cb) );
+	background:-moz-linear-gradient( center top, #6d6d64 5%, #c7c9cb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6d6d64', endColorstr='#c7c9cb');
+	background-color:#6d6d64;
+}
+.greyButton:active {
+	position:relative;
+	top:1px;
+}
+
+.buttonAddSaveSchool {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffc06e), color-stop(1, #fca523) );
+	background:-moz-linear-gradient( center top, #ffc06e 5%, #fca523 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc06e', endColorstr='#fca523');
+	background-color:#ffc06e;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:black;
+	font-weight:normal;
+	padding:6px 24px;
+	text-decoration:none;
+	font-size: 1em;	
+}
+.buttonAddSaveSchool:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fca523), color-stop(1, #ffc06e) );
+	background:-moz-linear-gradient( center top, #fca523 5%, #ffc06e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fca523', endColorstr='#ffc06e');
+	background-color:#fca523;
+}
+.buttonAddSaveSchool:active {
+	position:relative;
+	top:1px;
+}
+.buttonSaveAndContinue {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #a6192e), color-stop(1, #6b101e) );
+	background:-moz-linear-gradient( center top, #a6192e 5%, #6b101e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6192e', endColorstr='#6b101e');
+	background-color:#a6192e;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:normal;
+	padding:6px 24px;
+	text-decoration:none;
+	font-size: 1em;
+}
+.buttonSaveAndContinue:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6b101e), color-stop(1, #a6192e) );
+	background:-moz-linear-gradient( center top, #6b101e 5%, #a6192e 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6b101e', endColorstr='#a6192e');
+	background-color:#6b101e;
+}
+.buttonSaveAndContinue:active {
+	position:relative;
+	top:1px;
+}
+/* This imageless css button was generated by CSSButtonGenerator.com */
+
+/* The footer for the application's institution (in this case SFU) */
+#footerInstitution {
+    background-color: #B6B7B1;
+    clear: both;
+    color: #FFFFFF;
+    float: left;
+    font-size: 0.6em; /* 10px; */
+    padding: .4em 0 .4em 0;
+    text-align: center;
+    width: 100%;
+}
+
+/* The footer for ApplyBC.*/
+#footerApplyBC {
+    background-color: #464749;
+    border-radius: 0px 0px 10px 10px;
+    clear: both;
+    float: left;
+    height: 4.0625em; /* 65px; */
+    text-align: left;
+    width: 100%;
+}
+#footerApplyBC p {
+    color: #b6b7b1;
+    float: left;
+    font-size: 0.5em;
+    margin: 6em 0 0 6.5em;
+}
+#footerApplyBC a {
+    color: #b6b7b1;
+}
+#footerApplyBC a:hover {
+    color: #FFFFFF;
+}
+#footerApplyBC div {
+	float:right;
+	margin-top: 1.25em; /* 20px; */
+	margin-right: 3.25em; /* 52px; */
+}
+#footerApplyBC img {
+	vertical-align: middle;
+}
+/* ------- Alert Prompts ------ */
+.alertPrompt {
+	text-align: center;
+	width: 100%;
+}
+.alertTitle {
+	color: #a6192e;
+	font-size: 1.625em;
+}
+.alertInfo {
+	width: 29em;
+	margin: 0 auto;
+	color: #555555;
+	font-size: 0.875em;
+	line-height: 1.8em;
+}
+#dontRemind {
+	font-size: 0.8125em;
+}
+.alertLink {
+	color: #0054a6;
+	font-size: 0.75em;
+}
+.alertSuccess {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	text-align: center;	
+}
+
+.alertSuccess p {
+	margin-top: 2em;
+	font-size: 0.8em;	
+}
+
+div#alertPromptPrivacy {
+	text-align: left;
+	padding: 2em;
+	width: 28em;
+}
+h2.alertTitlePrivacy {
+	clear:both;	
+	color: #000000;
+	/* font-size: 18px; is now based on browser default font-size */
+	font-size: 1em; /* 18px */
+	font-weight: normal;
+	margin-bottom: .2em;
+}
+p.alertPara {
+	font-size: 0.8125em;
+	margin: 1em 0 2em 0;
+}
+div#alertButtonsPrivacy {
+	float: right;
+}
+/* ------- lightbox ----- */
+
+.successBox {
+	border-color: #A6192E !important;	
+}
+
+.black_overlay {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100em;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.6;
+	opacity: .60;
+	filter: alpha(opacity = 60); 
+}
+
+.white_content {	
+	border-width: .1em;
+	border-style: solid;
+	border-color: #C7C9CB;
+	border-radius: 10px;
+	-moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	display: none;
+	position: absolute;
+	top: 25%;	
+	left: 20%;
+	right: 20%;
+	padding: 1em;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+}

@@ -1,0 +1,21 @@
+ABOUT THE TABLE TOPICS MACHINE
+
+This program is designed to produce random questions for use as short speech topics in Toastmasters clubs. Normally, these questions are written and delivered by someone who has taken on the "Table Topics Master" role at a Toastmasters meeting. However, sometimes the Table Topics Master forgets to prepare, or cannot make it to their assigned meeting. The Table Topics Machine is here to fill in that gap.
+
+The Table Topics Machine works much like "Mad Libs". The program can draw upon a number of categories, each of whom contains a number of words and sentences. The sentences have spots that can only be filled in by a certain type of word, such as "Animal". The program then picks words at random and fills them into  those spots where appropriate. From "Why did the [ANIMAL] cross the road?" you can get:
+
+Why did the chicken cross the road?
+Why did the cow cross the road?
+Why did the lion cross the road?
+
+...and so on. Combining different categories leads to weirder and weirder outcomes, which is half the joy of the Table Topics Machine.
+
+HOW TO USE THE TABLE TOPICS MACHINE
+
+If you're feeling impatient, just click on the "Create Slides" button. This will create a new window with 10 slides to click through.
+
+Or, if you would like to do some customization you can select the number of slides and categories. Use the slider to select the number of slides. In general, it's a good idea to create more slides than you think you'll need in case something inappropriate is created by the Table Topics Machine. 
+
+Next, use the checkboxes to select categories. The more you select, the stranger the combinations you'll get. Some categories are more serious (e.g. Religion) so make sure to consider your audience's tastes before mixing them with a silly category (e.g. Scientology). The "Random" button selects categories at random, and the "Clear" button clears all selected categories. If no categories are selected, the Table Topics Machine will draw upon all categories.
+
+If you are using a projector, make sure that you're hooked up to the projector before you press the "Create Slides" button. Otherwise, the slide show will be sized for your monitor's screen, and not the projector.

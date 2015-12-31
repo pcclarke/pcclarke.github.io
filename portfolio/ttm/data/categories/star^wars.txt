@@ -1,0 +1,107 @@
+***STAR WARS CATEGORY BY PATRICK C CLARKE
+***
+CAT_Star Wars
+***
+***SENTENCES***
+***
+SEN_A Star Wars fan has mocked your homemade %COMOBJ, because they have an official Star Wars %COMOBJ. How do you defend yourself?
+SEN_George Lucas has hired you to promote the new Star Wars movie, Star Wars VII: %MOVNAM. Tell us what it's about!
+SEN_Your %RELATN offers you ten thousand dollars to get a tattoo of %FICHAR with a lightsaber. Would you?
+SEN_George Lucas wants to run Star Wars vacation tours to %PLACEI, but he's too busy directing Star Wars VIII: %MOVNAM. Figure out the details for him.
+SEN_Imagine you're in %PLACEI, and you need to explain 'the force' to a group of %GROUPS who have never heard of it before.
+***
+***LIBS***
+***
+***animals
+ANIMAL_ewok
+***bad situations
+BADSIT_cornered by a bounty hunter
+BADSIT_frozen in carbonite
+BADSIT_thrown into a sarlacc pit
+***beliefs
+BELIEF_Jediism
+***bands, old/defunct
+OLDBND_Max Rebo Band
+***challenges
+CHALLE_watched every Star Wars movie in a row
+CHALLE_watched the Star Wars christmas special
+***celebrities
+CLBRTY_Harrison Ford
+CLBRTY_James Earl Jones
+CLBRTY_Mark Hamill
+CLBRTY_Carrie Fisher
+CLBRTY_Billy Dee Williams
+CLBRTY_Ewan McGregor
+***common objects
+COMOBJ_Han Solo blaster
+COMOBJ_Jar-Jar Binks statue
+COMOBJ_George Lucas stick-on beard
+COMOBJ_Chewbacca costume
+COMOBJ_Yoda bobble-head
+***drinks
+DRINKY_Jawa beer
+DRINKY_Spiced Jedi Mindbender
+***fictional characters
+FICHAR_Luke Skywalker
+FICHAR_Han Solo
+FICHAR_Princess Leia
+FICHAR_Anakin Skywalker
+FICHAR_Jar-Jar Binks
+FICHAR_Obi-Wan Kenobi
+***harmful action
+HARMAC_force choke them
+HARMAC_shoot first
+***helpful action
+HELPAC_count their midi-chlorians
+***great names
+GRTNAM_Punch It Chewie
+***group identity, singular
+GROUPI_Jawa
+GROUPI_Jedi
+GROUPI_Mandalorian
+GROUPI_Wookiee
+***group identity, plural
+GROUPS_Jawas
+GROUPS_Jedi
+GROUPS_Mandalorians
+GROUPS_Sith
+GROUPS_Wookiees
+***movie genres
+MOVIEG_space opera
+***movie names
+MOVNAM_Revenge of the Ewoks
+MOVNAM_Han Shoots First
+MOVNAM_Yet Another New Hope
+MOVNAM_The Hidden Fortress
+***organizations, specific
+ORGNZG_Rebel Alliance
+ORGNZG_Galactic Empire
+***place, singular
+PLACEI_Alderaan
+PLACEI_Coruscant
+PLACEI_Dagobah
+PLACEI_Endor
+PLACEI_Hoth
+PLACEI_Kashyyyk
+PLACEI_Naboo
+PLACEI_Tatooine
+***relation
+RELATN_bounty hunter
+RELATN_protocol droid
+***scary things
+SCARYT_rancor
+SCARYT_sarlacc
+SCARYT_sith lord
+SCARYT_wampa
+***TV Shows
+TVSHOW_Star Wars: The Clone Wars
+TVSHOW_The Star Wars Holiday Special
+***villains
+VILAIN_Boba Fett
+VILAIN_Jabba the Hutt
+VILAIN_Darth Maul
+VILAIN_Darth Sidious
+VILAIN_Darth Vader
+***vehicle names
+VEHNAM_Death Star
+VEHNAM_Millennium Falcon
