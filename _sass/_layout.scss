@@ -12,16 +12,17 @@
 
 .site-title {
     font-size: 26px;
-    font-weight: 300;
+    font-style: italic;
     line-height: 56px;
-    letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    text-transform: none;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $text-color;
     }
+
 }
 
 .site-nav {
@@ -65,7 +66,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $brand-color;
                 }
             }
         }
@@ -297,7 +298,153 @@
             width: 100%;
         }
     }
+}
 
+
+
+/**
+ * Portfolio
+ */
+.piece {
+    display: block;
+    margin-top: 100px;
+
+    a {
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+
+    img {
+        overflow: hidden;
+        width: 100%;
+    }
+
+    p {
+        font-size: 24px;
+        padding: 5px 10px 15px 10px;
+    }
+
+    .showdetail {
+        margin: 0 10px;
+        padding: 3px;
+    }
+    
+    .detail {
+        padding: 10px;
+    }
+    
+    .leftColumn {
+        float: left;
+        max-width: 60%;
+    }
+    
+    .leftColumn img {
+        margin-bottom: 10px;
+    }
+    
+    .rightColumn {
+        float: right;
+        max-width: 38%;
+    }
+    
+    .clear {
+        clear: both;
+        width: 100%;
+    }
+
+    .detail, .showdetail {
+        background-color:rgba(255,255,255,0.2);
+    }
+}
+
+.piece:first-of-type {
+    padding-top: 15px;
+}
+
+@include media-query($on-laptop) {
+    .piece {
+        margin-top: 75px;
+
+        h2 {
+            font-size: 40px;
+            margin-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        p {
+            font-size: 18px;
+            padding: 5px 10px 15px 10px;
+        }
+
+        .showdetail {
+            margin: 0 10px;
+            padding: 3px;
+        }
+    }
+
+    .piece:first-of-type {
+        padding-top: 15px;
+    }
+}
+
+@include media-query($on-palm) {
+    .piece {
+        margin-top: 50px;
+
+        h2 {
+            font-size: 24px;
+            margin-left: 0;
+        }
+        
+        img {
+            width: 100%;
+        }
+        
+        p {
+            padding: 5px 5px 10px 5px;
+        }
+
+        .showdetail {
+            margin: 0 5px;
+            padding: 2px;
+        }
+        
+        .leftColumn {
+            float: none;
+            max-width: 100%;
+        }
+        
+        .leftColumn img {
+            margin-bottom: 10px;
+        }
+        
+        .rightColumn {
+            float: none;
+            max-width: 100%;
+        }
+        
+        .clear {
+            clear: both;
+            width: 100%;
+        }
+
+        .detail, .showdetail {
+            background-color:rgba(255,255,255,0.2);
+        }
+    }
+
+    .piece:first-of-type {
+        padding-top: 15px;
+    }
 }
 
 
