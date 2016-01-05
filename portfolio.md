@@ -50,6 +50,28 @@ permalink: /portfolio/
 </div>
 
 <div class="piece">
+	<h2 id="supra">Fitbit for Arthritis</h2>
+	<div id="supraFeature" class="feature">
+		<img src="/portfolio-res/supra/supra_final.jpg" />
+		<p>An interface that uses data from Fitbit devices to help people with arthritis achieve better health.</p>
+	</div>
+	<a href="#" class="showdetail">Read More</a>
+	<div class="detail">
+		<div class="leftColumn">
+			<img src="/portfolio-res/supra/supra_sketch.jpg" class="lesser" title="A sketch showing a calendar layout." /> 
+			<img src="/portfolio-res/supra/supra_take1.jpg" class="lesser" title="An early implementation of the calendar layout."/>
+			<img src="/portfolio-res/supra/supra_take2.jpg" class="lesser" title="One experiment with measuring 'periods' of activity."/>
+		</div>
+		<div class="rightColumn">
+			<p class="body">This was a major and lengthy project I worked on for my last two years in SIAT, first as a directed studies and then as a research assistant. The idea was straightforward enough: make Fitbit, normally intended for increasing exercise, to work for people with arthritis, who can't and shouldn't move too much. They need just the right amount of exercise, not too much and not too little, so that their joints remain flexible.</p>
+			<p>The design ended up being quite difficult, because it's a very abstract concept to represent. Quantities are easy to show, by displaying the position of a line, bar, or something similar. But how to show a quantity that must be "right"? After many sketches, prototypes, and revisions I eventually hit on a winning concept: redesign the data, not just the visualization.</p>
+
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="piece">
 	<h2 id="civ">Civilization 4 Technology Poster</h2>
 	<div id="civFeature" class="feature">
 		<img src="/portfolio-res/civ/civ_poster_final.jpg" />
