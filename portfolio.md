@@ -54,6 +54,7 @@ permalink: /portfolio/
 	<div id="supraFeature" class="feature">
 		<img src="/portfolio-res/supra/supra_final.jpg" />
 		<p>An interface that uses data from Fitbit devices to help people with arthritis achieve better health.</p>
+		<p><a href="/portfolio-res/supra/index.html">View the Arthritis for Fitbit prototype</a></p>
 	</div>
 	<a href="#" class="showdetail">Read More</a>
 	<div class="detail">

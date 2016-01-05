@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SuPRA - Review</title>
+	<!-- Bootstrap -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="supra.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div id="tooltip">
+    Tooltip Text
+  </div>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">SuPRA</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="">Dashboard</a></li>
+          <li><a href="">Social Club</a></li>
+          <li><a href="">Calendar</a></li>
+          <li class="active"><a href="#">Review <span class="sr-only">(current)</span></a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <svg class="chart dash-chart">
+          <defs>
+            <pattern id="stripe" patternUnits="userSpaceOnUse" width="40" height="20">
+                <line x1="10" y1="0" x2="30" y2="20" />
+                <line x1="-10" y1="0" x2="10" y2="20" />
+                <line x1="30" y1="0" x2="50" y2="20" />
+            </pattern>
+            <mask id="mask">
+                <rect style="fill: url(#stripe)" />
+            </mask>
+          </defs>
+        </svg>     
+      </div>
+      <div class="col-md-3">
+        <form>
+          <label>Show/Hide </label><br>
+
+          <button type="button" name="reference" id="ref-PrevDay" >Previous Day</button>
+          <button type="button" name="reference" id="ref-NextDay" >Next Day</button><br>
+
+          <label>Show/Hide </label><br>
+
+          <input type="checkbox" name="reference" id="ref-ShowMinutes" checked>
+          <label for="ref-ShowMinutes">Minute-by-minute Activity</label><br>
+
+          <input type="checkbox" name="reference" id="ref-Show10Mins">
+          <label for="ref-Show10Mins">Activity Per 10 Minutes</label><br>
+
+          <input type="checkbox" name="reference" id="ref-Bouts" checked>
+          <label for="ref-Bouts">Bouts</label><br>
+
+          <input type="checkbox" name="reference" id="ref-TooActive" checked>
+          <label for="ref-TooActive">Vigorous Bouts</label><br>
+
+          <input type="checkbox" name="reference" id="ref-TooLong" checked>
+          <label for="ref-TooLong">Long Bouts</label><br>
+
+          <input type="checkbox" name="reference" id="ref-TooSoon" checked>
+          <label for="ref-TooSoon">Soon Bouts</label><br>
+        </form>      
+      </div>
+    </div>
+    <p><a href="../../portfolio/index.html#supra">Return to my portfolio</a></p>
+  </div>
+
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="textures.min.js"></script>
+  <script src="review_viz.js"></script>
+</body>
+</html>
