@@ -5,6 +5,26 @@ permalink: /portfolio/
 ---
 
 <div class="piece">
+	<h2 id="wall">Unger Fraktur Specimen Poster</h2>
+	<div id="wallFeature" class="feature">
+		<img src="/portfolio-res/unger/unger_fraktur_specimen.jpg" />
+		<p>A small poster to describe and display the unique features of the modern-fraktur hybrid typeface, Unger Fraktur.</p>
+	</div>
+	<a href="#" class="showdetail">Read More</a>
+	<div class="detail">
+		<div class="leftColumn">
+			<img src="/portfolio-res/unger/unger_fraktur_specimen_d2.jpg" class="lesser" title="One of the various sketches I made for the Unger Fraktur poster." /> 
+			<img src="/portfolio-res/unger/unger_fraktur_specimen_d3.jpg" class="lesser" title="First draft."/>
+		</div>
+		<div class="rightColumn">
+			<p class="body">In fall 2015, I took a course in typography at Emily Carr University of Art + Design. Aside from a general interest as a designer, I realized that typefaces (or fonts, if you must) are especially important for the web because they scale so well.</p>
+			<p class="body">The goal of this poster was to showcase a typeface. I was interested in blackletter type because I had rarely used it, and I thought it would prove to be an interesting challenge to research. That led me to discovering Unger Fraktur, a somewhat forgotten but attractive variant of the Fraktur blackletter family.</p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div class="piece">
 	<h2 id="wall">The Wall</h2>
 	<div id="wallFeature" class="feature">
 		<img src="/portfolio-res/wall/wallglow.jpg" />
