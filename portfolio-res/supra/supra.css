@@ -1,0 +1,53 @@
+/*.chart rect {
+  fill: none;
+  stroke: #777;
+  stroke-opacity: 5; 
+  stroke-width: 5px;
+}
+
+.chart text {
+#  fill: black;
+#  font: 10px sans-serif;
+#  text-anchor: start;
+}
+
+
+
+form {
+  position: absolute;
+  top: 1em;
+  left: 1000px;
+}
+
+#stripe line {
+	fill: white;
+	stroke: white;
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	stroke-width: 10px;
+}*/
+
+#tooltip{
+    position: absolute;
+    display: none;
+    background: white;
+    opacity: .95;
+    padding: 4px 12px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    z-index: 20;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
