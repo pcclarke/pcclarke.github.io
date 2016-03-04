@@ -81,8 +81,14 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+h2 {
     font-family: $heading-font-family;
+    font-weight: $base-font-weight;
+}
+
+h3, h4, h5, h6 {
+    border-bottom: 1px solid $grey-color-dark;
+    font-family: $base-italic-font-family;
     font-weight: $base-font-weight;
 }
 
@@ -93,8 +99,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
+    font-family: $heading-font-family;
     text-decoration: none;
-    text-transform: uppercase;
 
     &:visited {
         color: darken($brand-color, 15%);
@@ -209,24 +215,4 @@ pre {
             fill: $grey-color;
         }
     }
-}
-
-/**
- * Background
- */
-#gen-bg {
-    height: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        outline: none;
-        -webkit-tap-highlight-color: rgba(255, 255, 255, 0); /* mobile webkit */
-    pointer-events: none;
-    Z-index: -1;
 }
