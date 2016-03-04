@@ -309,6 +309,11 @@ div .piece {
 
     p {
         padding: 5px 10px 15px 10px;
+        margin: 0px;
+    }
+    
+    .block {
+        display: block;
         margin: 10px 0px;
     }
 
@@ -319,6 +324,7 @@ div .piece {
     
     .feature p:first-of-type {
         padding: 0px;
+        margin-bottom: 10px;
     }
     
     .left {
@@ -333,6 +339,12 @@ div .piece {
     
     .right {
         float: right;
+        width: 250px;
+        
+        p {
+            font-family: $base-italic-font-family;
+            font-size: $small-font-size;
+        }
     }
     
     .clear {
@@ -342,45 +354,36 @@ div .piece {
     
     @include media-query($on-palm) {
         margin-top: 50px;
-
-        h3 {
-            margin-left: 0;
-        }
-        
-        img {
-            width: 600px;
-        }
         
         p {
             padding: 5px 5px 10px 5px;
         }
-
-        .showdetail {
-            margin: 0 5px;
-            padding: 2px;
-        }
         
-        .leftColumn {
+        .left {
             float: none;
             max-width: 100%;
+            
+            img {
+                margin-bottom: 5px;
+            }
         }
         
-        .leftColumn img {
-            margin-bottom: 10px;
+        .feature .link {
+            text-align: center;
         }
         
-        .rightColumn {
+        .right {
             float: none;
-            max-width: 100%;
+            width: 100%;
+            
+            p {
+                text-align: center;
+            }
         }
         
         .clear {
             clear: both;
             width: 100%;
-        }
-
-        .detail, .showdetail {
-            background-color:rgba(255,255,255,0.2);
         }
     }
 }
