@@ -205,17 +205,15 @@
     display: block;
     margin: 20px auto 200px auto;
     width: 100%;
-
-    h1 {
-        font-family: "Fette Unz Fraktur";
-        font-size: 6em;
-        margin-bottom: 0px;
-        margin-left: -30px;
-    }
     
     #lead {
         width: 800px;
         margin-left: -45px;
+        
+        @include media-query($on-palm) {
+            width: 100%;
+            margin: 0px;   
+        }
     }
 
     #left {
@@ -237,7 +235,7 @@
     }
 
     @include media-query($on-palm) {
-        margin: 50px auto 0 auto;
+        margin: 10px auto 80px auto;
         width: 100%;
 
         h1 {
@@ -284,6 +282,8 @@
  
  h2:first-of-type {
      font-size: 40px !important;
+     
+     
  }
  
 div .piece {
@@ -343,8 +343,7 @@ div .piece {
     @include media-query($on-palm) {
         margin-top: 50px;
 
-        h2 {
-            font-size: 24px;
+        h3 {
             margin-left: 0;
         }
         
