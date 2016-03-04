@@ -9,4 +9,24 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <style>
+    @font-face {
+        font-family: "Linden Hill";
+        src: url('{{ '/type/lindenhill.woff2' | prepend: site.baseurl }}') format('woff2'),
+             url('{{ '/type/lindenhill.woff' | prepend: site.baseurl }}') format('woff'),
+             url('{{ '/type/lindenhill.ttf' | prepend: site.baseurl }}') format('truetype');
+	  }
+    @font-face {
+        font-family: "Linden Hill Italic";
+        src: url('{{ '/type/lindenhill-italic.woff2' | prepend: site.baseurl }}') format('woff2'),
+             url('{{ '/type/lindenhill-italic.woff' | prepend: site.baseurl }}') format('woff'),
+             url('{{ '/type/lindenhill-italic.ttf' | prepend: site.baseurl }}') format('truetype');
+	  }
+    @font-face {
+        font-family: "OSP-DIN";
+        src: url('{{ '/type/osp-din.woff2' | prepend: site.baseurl }}') format('woff2'),
+             url('{{ '/type/osp-din.woff' | prepend: site.baseurl }}') format('woff'),
+             url('{{ '/type/osp-din.ttf' | prepend: site.baseurl }}') format('truetype');
+	  }
+  </style>
 </head>
