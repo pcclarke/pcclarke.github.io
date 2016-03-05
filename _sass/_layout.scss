@@ -213,7 +213,7 @@
     
     #lead {
         width: 800px;
-        margin-left: -45px;
+        margin-left: -25px;
         
         @include media-query($on-palm) {
             width: 100%;
