@@ -310,6 +310,11 @@ div .piece {
     .block {
         display: block;
         margin: 10px 0px;
+        
+        a {
+            font-family: $base-font-family;
+            text-decoration: underline;
+        }
     }
 
     .showdetail {
