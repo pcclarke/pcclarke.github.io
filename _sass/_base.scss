@@ -180,7 +180,7 @@ pre {
     }
 
     @include media-query($on-palm) {
-        padding: 0;
+        padding: 0px $spacing-unit / 4;
     }
 }
 
