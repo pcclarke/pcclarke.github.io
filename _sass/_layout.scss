@@ -115,6 +115,11 @@
     margin-left: 0;
 }
 
+.contact-list a {
+    text-decoration: underline;
+    font-family: $base-font-family;
+}
+
 .footer-col-wrapper {
     font-size: 15px;
     color: $grey-color;
