@@ -346,6 +346,18 @@ div .piece {
         }
     }
     
+    .techs {
+        p {
+            font-family: $base-italic-font-family;
+            padding-bottom: 5px;
+        }
+        
+        ul {
+            margin-left: 45px;
+        }
+
+    }
+    
     .left {
         float: left;
         
