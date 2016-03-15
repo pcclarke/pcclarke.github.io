@@ -3,16 +3,15 @@ layout: home
 ---
 
 <div id="home">
-	<!--<h1 id="lead">Patrick Clarke</h1>-->
     <div id="lead" alt="Patrick Clarke">{% include name-fraktur.svg %}</div>
-	<div class="left">
-        <p>Interaction designer</p>
-	</div>
+    <p>Interaction designer</p>
     
+    <ul>
     {% for my_page in site.pages %}
         {% if my_page.tags == 'root' %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
         {% endif %}
     {% endfor %}
+    </ul>
     
 </div>

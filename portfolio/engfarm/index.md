@@ -1,17 +1,15 @@
 ---
 layout: page
+id: engfarm
 title: English Farm Prices History
+excerpt: An interactive data visualization for exploring historical economic farm data.
 permalink: /portfolio/engfarm/
 tags: portfolio
 ---
 
 <div class="piece">
     <h3 id="engfarm">English Farm Prices History</h3>
-    <div id="engfarmFeature" class="feature">
-        <p>An interactive data visualization for exploring historical economic farm data.</p>
-        <img src="engfarm_final.jpg" />
-        <p class="link"><a href="index.html">View the Interactive Data Visualization</a></p>
-    </div>
+    {% include intros/engfarm-intro.html %}
     <div class="techs">
         <p>Technologies used:</p>
         <ul>

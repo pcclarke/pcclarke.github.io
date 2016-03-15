@@ -1,17 +1,15 @@
 ---
 layout: page
+id: applybc
 title: ApplyBC Upgrade for Simon Fraser University
+excerpt: Improving the user experience of the online application forms for universities in British Columbia.
 permalink: /portfolio/applybc/
 tags: portfolio
 ---
 
 <div class="piece">
     <h3 id="abctest">ApplyBC Upgrade for Simon Fraser University</h3>
-    <div id="applyBC2Feature" class="feature">
-        <p>Improving the user experience of the online application forms for universities in British Columbia.</p>
-        <img src="landing-full.jpg" />
-        <p><a href="applybc_sfu_user_study_report.pdf">Read the ApplyBC SFU user test report</a> (pdf)</p>
-    </div>
+    {% include intros/applybc-intro.html %}
     <div class="techs">
         <p>Technologies used:</p>
         <ul>

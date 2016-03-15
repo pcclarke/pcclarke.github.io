@@ -1,16 +1,15 @@
 ---
 layout: page
+id: unger
 title: Unger Fraktur Specimen Poster
+excerpt: A small poster to describe and display the unique features of the modern-fraktur hybrid typeface, Unger Fraktur.
 permalink: /portfolio/unger/
 tags: portfolio
 ---
 
 <div class="piece">
     <h3 id="unger">Unger Fraktur Specimen Poster</h3>
-    <div id="ungerFeature" class="feature">
-        <p>A small poster to describe and display the unique features of the modern-fraktur hybrid typeface, Unger Fraktur.</p>
-        <img src="unger_fraktur_specimen.jpg" />
-    </div>
+    {% include intros/unger-intro.html %}
     <div class="techs">
         <p>Technologies used:</p>
         <ul>

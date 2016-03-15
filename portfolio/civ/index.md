@@ -1,16 +1,15 @@
 ---
 layout: page
+id: civ
 title: Civilization 4 Technology Poster
+excerpt: A redesign of the technology tree Sid Meier's Civilization 4 for accuracy and clarity.
 permalink: /portfolio/civ/
 tags: portfolio
 ---
 
 <div class="piece">
     <h3 id="civ">Civilization 4 Technology Poster</h3>
-    <div id="civFeature" class="feature">
-        <p>A redesign of the technology tree Sid Meier's Civilization 4 for accuracy and clarity.</p>
-        <img src="civ_poster_final.jpg" />
-    </div>
+    {% include intros/civ-intro.html %}
     <div class="techs">
         <p>Technologies used:</p>
         <ul>

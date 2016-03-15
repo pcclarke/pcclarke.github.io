@@ -1,17 +1,15 @@
 ---
 layout: page
+id: supra
 title: Fitbit for Arthritis
+excerpt: An interface that uses data from Fitbit devices to help people with arthritis achieve better health.
 permalink: /portfolio/supra/
 tags: portfolio
 ---
 
    <div class="piece">
         <h3 id="supra">Fitbit for Arthritis</h3>
-        <div id="supraFeature" class="feature">
-            <p>An interface that uses data from Fitbit devices to help people with arthritis achieve better health.</p>
-            <img src="supra_final.jpg" />
-            <p><a href="index.html">View the Arthritis for Fitbit final prototype</a></p>
-        </div>
+        {% include intros/supra-intro.html %}
         <div class="techs">
             <p>Technologies used:</p>
             <ul>

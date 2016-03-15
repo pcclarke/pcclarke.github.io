@@ -1,16 +1,15 @@
 ---
 layout: page
+id: sunset
 title: Sunset Sails
+excerpt: Vizualizing efficient building energy usage with an installation piece.
 permalink: /portfolio/sunset/
 tags: portfolio
 ---
 
 <div class="piece">
     <h3 id="sunset">Sunset Sails</h3>
-    <div id="sunsetFeature" class="feature">
-        <p>Vizualizing efficient building energy usage with an installation piece.</p>
-        <img src="final_concept.jpg" />
-    </div>
+    {% include intros/sunset-intro.html %}
     <div class="techs">
         <p>Technologies used:</p>
         <ul>
