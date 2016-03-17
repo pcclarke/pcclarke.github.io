@@ -294,6 +294,11 @@
      
  }
  
+.clear {
+    clear: both;
+    width: 100%;
+}
+ 
 div .piece {
     margin-top: 100px;
     
@@ -406,12 +411,154 @@ div .piece {
                 text-align: center;
             }
         }
+    }
+}
+
+/*
+* Resume
+*/
+
+.dl-file {
+    text-transform: uppercase;
+}
+
+#resume {
+    
+    border-top: 1px solid black;
+    
+    h2 {
         
-        .clear {
-            clear: both;
-            width: 100%;
+    }
+    
+    h3 {
+        border: none;
+        font-family: $heading-font-family;
+        font-size: $small-font-size;
+        line-height: 18px;
+        margin: 0px;
+    }
+    
+    h4 {
+        border: none;
+        font-family: $heading-font-family;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    ul {
+        font-size: 9px;
+        list-style: disc;
+        margin-left: 13px;
+    }
+
+    .dateRange {
+        font-family: $heading-font-family;
+        font-size: 16px;
+    }
+
+    aside {
+        
+        height: 100%;
+        margin-top: 30px;
+        padding-right: 20px;
+        width: 160px;
+        
+        p, dt, dl {
+            font-size: 16px;
+            line-height: 18px;
+        }
+        
+        p {
+            margin: 0px;
+            font-family: $base-italic-font-family;
+        }
+        
+        dt {
+            font-family: $base-italic-font-family;
+        }
+        
+        dd {
+            font-size: 14px;
+            margin-bottom: 8px;
+            margin-left: 13px;
+        }
+        
+        .liText {
+            font-size: 16px;
+            line-height: 18px;
+            vertical-align: middle;
+        }
+        
+        .leftBlock:first-of-type {
+            margin-top: 0px;
+        }
+        
+        .leftBlock {
+            margin-top: 300px;
         }
     }
+    
+    .resCategory {
+        font-family: $base-italic-font-family;
+        margin: 0px;
+    }
+    
+    article {
+        border-left: 1px solid black;
+        float: right;
+        margin-top: 22px;
+        padding-left: 20px;
+        width: 720px;
+        
+        p, dt, dl {
+            font-size: 20px;
+            line-height: 24px;
+        }
+        
+        li {
+            line-height: 24px;
+        }
+        
+        .liText {
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        
+        .split {
+            display: inline-block;
+            margin-bottom: 40px;
+            vertical-align: top;
+            width: 330px;
+        }
+        
+        .split:first-of-type {
+            margin-right: 35px;
+        }
+        
+        .block {
+            display: block;
+            margin-bottom: 25px;
+        }
+        
+        .left {
+            float: left;
+            width: 550px;
+        }
+        
+        .right {
+            float: right;
+            width: 140px;
+            
+            .liText {
+                font-size: 16px;
+            }
+        }
+    }
+    
+    .block {
+        display: block;
+    }
+    
 }
 
 
