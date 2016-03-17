@@ -5,7 +5,7 @@ permalink: /resume/
 tags: root
 ---
 
-<p class="dl-file"><a href="pcclarke-resume.pdf">Download PDF</a></p>
+<p class="dl-file"><a href="../pcclarke_resume.pdf">Download PDF</a></p>
 
 <div id="resume">
     <article>
