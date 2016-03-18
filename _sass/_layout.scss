@@ -26,7 +26,8 @@
     }
     
     @include media-query($on-palm) {
-        margin-left: -10px;
+        margin-left: -5px;
+        width: 200px;
     }
 
 }
@@ -462,7 +463,6 @@ div .piece {
     }
 
     aside {
-        height: 100%;
         margin-top: 30px;
         padding-right: 20px;
         width: 160px;
@@ -532,7 +532,7 @@ div .piece {
             display: inline-block;
             margin-bottom: 30px;
             vertical-align: top;
-            width: 330px;
+            width: 340px;
         }
         
         .split:first-of-type {
@@ -563,6 +563,75 @@ div .piece {
         display: block;
     }
     
+    
+    @include media-query($on-palm) {
+        
+        h2:nth-of-type(2) {
+            border-top: 1px solid black;
+            padding-top: 10px;
+        }
+        
+        aside {
+            float: none;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            
+            h4 {
+                border-top: 1px solid black !important;
+                font-size: 20px;
+                text-align: left;
+                margin-bottom: 15px;
+            }
+            
+            .leftBlock {
+                margin: 0px;
+            }
+            
+            .liText {
+                font-size: 20px;
+                line-height: 24px;
+            }
+            
+            p, dt, dl, dd {
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+
+        
+        article {
+            border: none;
+            margin: 0px;
+            padding: 0px;
+            float: none;
+            width: 100%;
+            
+            .split:first-of-type {
+                margin: 0px;
+            }     
+            
+            .split {
+                display: inline;
+                margin: 0px;
+                width: 100%;
+            }
+            
+            .left {
+                float: none;
+                width: 100%;
+            }
+            
+            .right {
+                float: none;
+                width: 100%;
+                
+                .liText {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
 }
 
 

@@ -11,8 +11,7 @@ tags: root
     <article>
         <h2>Objective</h2>
         <div class="block">
-            <p class="split">My goal as a designer is to make sense of the complexities in our world and to render them understandable. I am uniquely capable, owing to my skills combining economics,</p>
-            <p class="split">technology, and creativity. I seek positions dealing with challenging concepts and interfaces, where I can use my skillset to create designs for communicating them.</p>
+            <p><span class="split">My goal as a designer is to make sense of the complexities in our world and to render them understandable. I am uniquely capable, owing to my skills combining economics,</span> <span class="split">technology, and creativity. I seek positions dealing with challenging concepts and interfaces, where I can use my skillset to create designs for communicating them.</span></p>
         </div>
         <h2>Work Experience</h2>
         <div class="block">
