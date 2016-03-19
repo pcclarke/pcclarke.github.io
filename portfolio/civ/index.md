@@ -8,8 +8,9 @@ tags: portfolio
 ---
 
 <div class="piece">
-    <h3 id="civ">Civilization 4 Technology Poster</h3>
-    {% include intros/civ-intro.html %}
+    <div id="civFeature" class="feature">
+        <img src="{{ site.baseurl }}/portfolio/civ/civ_poster_final.jpg" />
+    </div>
     <div class="techs">
         <p>Technologies used:</p>
         <ul>

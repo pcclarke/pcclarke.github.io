@@ -8,8 +8,10 @@ tags: portfolio
 ---
 
    <div class="piece">
-        <h3 id="supra">Fitbit for Arthritis</h3>
-        {% include intros/supra-intro.html %}
+        <div id="supraFeature" class="feature">
+            <img src="{{ site.baseurl }}/portfolio/supra/supra_final.jpg" />
+            <p><a href="index.html">View the Arthritis for Fitbit final prototype</a></p>
+        </div>
         <div class="techs">
             <p>Technologies used:</p>
             <ul>

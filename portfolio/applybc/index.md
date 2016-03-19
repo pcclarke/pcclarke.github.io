@@ -8,8 +8,10 @@ tags: portfolio
 ---
 
 <div class="piece">
-    <h3 id="abctest">ApplyBC Upgrade for Simon Fraser University</h3>
-    {% include intros/applybc-intro.html %}
+    <div id="applyBC2Feature" class="feature">
+        <img src="{{ site.baseurl }}/portfolio/applybc/landing-full.jpg" />
+        <p><a href="applybc_sfu_user_study_report.pdf">Read the ApplyBC SFU user test report</a> (pdf)</p>
+    </div>
     <div class="techs">
         <p>Technologies used:</p>
         <ul>

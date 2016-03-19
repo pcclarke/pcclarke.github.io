@@ -8,8 +8,9 @@ tags: portfolio
 ---
 
 <div class="piece">
-    <h3 id="sunset">Sunset Sails</h3>
-    {% include intros/sunset-intro.html %}
+    <div id="sunsetFeature" class="feature">
+        <img src="{{ site.baseurl }}/portfolio/sunset/final_concept.jpg" />
+    </div>
     <div class="techs">
         <p>Technologies used:</p>
         <ul>

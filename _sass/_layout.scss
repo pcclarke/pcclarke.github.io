@@ -283,16 +283,6 @@
  
  .left {
      width: 650px;
-     
-     @include media-query($on-palm) {
-        width: 100%;   
-     }
- }
- 
- h2:first-of-type {
-     font-size: 40px !important;
-     
-     
  }
  
 .clear {
@@ -323,12 +313,7 @@ div .piece {
     
     .block {
         display: block;
-        margin: 10px 0px;
-        
-        a {
-            font-family: $base-font-family;
-            text-decoration: underline;
-        }
+        margin: 30px 0px;
     }
 
     .showdetail {
@@ -362,6 +347,11 @@ div .piece {
     .left {
         float: left;
         
+        a {
+            font-family: $base-font-family;
+            text-decoration: underline;
+        }
+        
         img {
             display: block;
             width: 80%;
@@ -379,6 +369,20 @@ div .piece {
         }
     }
     
+    .leftPort {
+        float: left;
+        width: 300px;
+        
+        .caseLink {
+            text-transform: uppercase;
+        }
+    }
+
+    .rightPort {
+        float: right;
+        width: 600px;
+    }
+    
     .clear {
         clear: both;
         width: 100%;
@@ -393,7 +397,7 @@ div .piece {
         
         .left {
             float: none;
-            max-width: 100%;
+            width: 100%;
             
             img {
                 margin-bottom: 5px;
@@ -411,6 +415,16 @@ div .piece {
             p {
                 text-align: center;
             }
+        }
+        
+        .leftPort {
+            float: none;
+            width: 100%;
+        }
+        
+        .rightPort {
+            float: none;
+            width: 100%;
         }
     }
 }

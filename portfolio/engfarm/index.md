@@ -9,7 +9,10 @@ tags: portfolio
 
 <div class="piece">
     <h3 id="engfarm">English Farm Prices History</h3>
-    {% include intros/engfarm-intro.html %}
+    <div id="engfarmFeature" class="feature">
+        <img src="{{ site.baseurl }}/portfolio/engfarm/engfarm_final.jpg" />
+        <p class="link"><a href="index.html">View the Interactive Data Visualization</a></p>
+    </div>
     <div class="techs">
         <p>Technologies used:</p>
         <ul>

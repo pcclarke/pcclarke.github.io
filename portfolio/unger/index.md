@@ -8,8 +8,9 @@ tags: portfolio
 ---
 
 <div class="piece">
-    <h3 id="unger">Unger Fraktur Specimen Poster</h3>
-    {% include intros/unger-intro.html %}
+    <div id="ungerFeature" class="feature">
+        <img src="{{ site.baseurl }}/portfolio/unger/unger_fraktur_specimen.jpg" />
+    </div>
     <div class="techs">
         <p>Technologies used:</p>
         <ul>
