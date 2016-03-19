@@ -289,6 +289,10 @@
     clear: both;
     width: 100%;
 }
+
+.link, .caseLink {
+    text-transform: uppercase;
+}
  
 div .piece {
     margin-top: 100px;
@@ -372,20 +376,25 @@ div .piece {
     .leftPort {
         float: left;
         width: 300px;
-        
-        .caseLink {
-            text-transform: uppercase;
-        }
     }
 
     .rightPort {
         float: right;
         width: 600px;
+        
+        img {
+            width: 100%;
+        }
     }
     
     .clear {
         clear: both;
         width: 100%;
+    }
+    
+    .quote {
+        margin-left: 20px;
+        font-size: $small-font-size;
     }
     
     @include media-query($on-palm) {
@@ -425,6 +434,10 @@ div .piece {
         .rightPort {
             float: none;
             width: 100%;
+        }
+        
+        .quote {
+            margin: 0px 5px;
         }
     }
 }

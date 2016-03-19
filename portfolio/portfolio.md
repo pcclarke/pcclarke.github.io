@@ -7,6 +7,7 @@ tags: root
 
 <div class="piece">
     <h2>Case studies</h2>
+    <p>These are some in-depth case studies on some of my relatively recent projects, describing my role and the decisions I took in the designs I was responsible for.</p>
     <div class="block">
         <div class="leftPort">
             <h3>Fitbit for Arthritis</h3>
@@ -44,6 +45,7 @@ tags: root
 
 <div class="piece">
     <h2>Other projects</h2>
+    <p>A few smaller and miscellaneous projects that I've worked on lately.</p>
     <div class="block">
         <div class="leftPort">
             <h3>English Farm Prices History</h3>
@@ -81,14 +83,30 @@ tags: root
 </div>
 
 <div class="piece">
-    <h2>Once upon a time I studied economics...</h2>
+    <h2>Economics papers</h2>
+    <p>Once upon a time, I studied economics until I switched into design. Here are a couple of the papers that I wrote on economic topics.</p> 
+    <div class="block">
         <div class="leftPort">
             <h3>The Compensation Election and Minorities</h3>
-            <p></p>
-            <p class="caseLink"><a href="{{ site.baseurl }}/portfolio/unger/">Read more</a></p>
+            <p>A paper describing an economics experiment I conducted on how minority groups would behave in a bidding game.</p>
+            <p class="caseLink"><a href="{{ site.baseurl }}/portfolio/compex/">Read more</a></p>
+            <p class="caseLink"><a href="compex/E428pcclarke.pdf">Download this paper</a></p>
         </div>
         <div class="rightPort">
-            <img src="unger/unger_fraktur_specimen.jpg" />
+            <img src="compex/compexgui-lead.jpg" />
         </div>
         <div class="clear"></div>
+    </div>
+    <div class="block">
+        <div class="leftPort">
+            <h3>The Evanescent Haavelmo</h3>
+            <p>My history of econometrics paper on Trygve Haavelmo, the economist most responsible for modern econometrics practice.</p>
+            <p class="caseLink"><a href="{{ site.baseurl }}/portfolio/haavelmo/">Read more</a></p>
+            <p class="caseLink"><a href="haavelmo/E409pcclarke.pdf">Download this paper</a></p>
+        </div>
+        <div class="rightPort">
+            <img src="haavelmo/haavelmo-desk.jpg" />
+        </div>
+        <div class="clear"></div>
+    </div>
 </div>
