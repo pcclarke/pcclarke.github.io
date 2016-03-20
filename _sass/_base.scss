@@ -81,13 +81,17 @@ li {
 /**
  * Headings
  */
-h2 {
+h1 {
     font-family: $heading-font-family;
+    font-weight: $base-font-weight;
+}
+ 
+h2 {
+    border-bottom: 1px solid $grey-color-dark;
     font-weight: $base-font-weight;
 }
 
 h3, h4, h5, h6 {
-    border-bottom: 1px solid $grey-color-dark;
     font-family: $base-italic-font-family;
     font-weight: $base-font-weight;
 }

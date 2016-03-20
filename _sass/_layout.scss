@@ -13,13 +13,21 @@
     font-family: $base-font-family;
     font-size: 26px;
     line-height: 56px;
+    margin-left: -20px;
     margin-bottom: 0;
     float: left;
     text-transform: none;
+    width: 300px;
+    height: 55px;
 
     &,
     &:visited {
         color: $text-color;
+    }
+    
+    @include media-query($on-palm) {
+        margin-left: -5px;
+        width: 200px;
     }
 
 }
@@ -208,40 +216,34 @@
  */
 #home {
     display: block;
-    margin: 20px auto 200px auto;
+    margin: 200px auto 200px auto;
     width: 100%;
     
     #lead {
-        width: 800px;
-        margin-left: -25px;
-        
-        @include media-query($on-palm) {
-            width: 100%;
-            margin: 0px;   
-        }
+        width: 103%;
+        margin-left: -30px;
     }
 
-    #left {
-        float: left;
-        padding-right: 20px;
-        width: 720px;
+    p {
+        font-family: $base-italic-font-family;
+        font-size: 1.5em;
     }
-
-    #right {
-        background-color: rgba(0, 0, 0, 0.3);
-        border-left: 1px solid rgba(255,255,255,0.5);
-        display: inline-block;
-        padding: 0 10px 0 20px;
-    }
-
-    #right p {
-        font-size: 1.4em;
-        margin-bottom: 5px;
+    
+    ul {
+        float: right;
+        list-style: none;
+        text-align: right;
+        font-size: 1.5em;
     }
 
     @include media-query($on-palm) {
         margin: 10px auto 80px auto;
         width: 100%;
+        
+        #lead {
+            width: 100%;
+            margin: 0px;   
+        }
 
         h1 {
             font-size: 2.5em;
@@ -253,20 +255,14 @@
 
         p {
             font-size: 1em;
-        }
-
-        #left {
-            margin: 0 auto;
-            padding: 0;
-            width: 100%;
-        }
-
-        #right {
-            border: none;
-            margin: 0 auto;
-            padding: 0;
             text-align: center;
-            width: 100%;
+        }
+        
+        ul {
+            font-size: 1em;
+            text-align: center;
+            float: none;
+            margin: 0px;
         }
     }
 }
@@ -287,17 +283,16 @@
  
  .left {
      width: 650px;
-     
-     @include media-query($on-palm) {
-        width: 100%;   
-     }
  }
  
- h2:first-of-type {
-     font-size: 40px !important;
-     
-     
- }
+.clear {
+    clear: both;
+    width: 100%;
+}
+
+.link, .caseLink {
+    text-transform: uppercase;
+}
  
 div .piece {
     margin-top: 100px;
@@ -322,12 +317,7 @@ div .piece {
     
     .block {
         display: block;
-        margin: 10px 0px;
-        
-        a {
-            font-family: $base-font-family;
-            text-decoration: underline;
-        }
+        margin: 30px 0px;
     }
 
     .showdetail {
@@ -361,6 +351,11 @@ div .piece {
     .left {
         float: left;
         
+        a {
+            font-family: $base-font-family;
+            text-decoration: underline;
+        }
+        
         img {
             display: block;
             width: 80%;
@@ -378,9 +373,28 @@ div .piece {
         }
     }
     
+    .leftPort {
+        float: left;
+        width: 300px;
+    }
+
+    .rightPort {
+        float: right;
+        width: 600px;
+        
+        img {
+            width: 100%;
+        }
+    }
+    
     .clear {
         clear: both;
         width: 100%;
+    }
+    
+    .quote {
+        margin-left: 20px;
+        font-size: $small-font-size;
     }
     
     @include media-query($on-palm) {
@@ -392,7 +406,7 @@ div .piece {
         
         .left {
             float: none;
-            max-width: 100%;
+            width: 100%;
             
             img {
                 margin-bottom: 5px;
@@ -412,9 +426,243 @@ div .piece {
             }
         }
         
-        .clear {
-            clear: both;
+        .leftPort {
+            float: none;
             width: 100%;
+        }
+        
+        .rightPort {
+            float: none;
+            width: 100%;
+        }
+        
+        .quote {
+            margin: 0px 5px;
+        }
+    }
+}
+
+/*
+* Resume
+*/
+
+.dl-file {
+    text-transform: uppercase;
+}
+
+#resume {
+    
+    border-top: 1px solid black;
+    
+    h2 {
+        border-bottom: none;
+        font-family: $heading-font-family;
+        font-size: 40px;
+    }
+    
+    h2:nth-of-type(2) {
+        border-top: 20px solid #CCCCCC;
+        padding-top: 10px;
+    }
+
+    h2:nth-of-type(n+3) {
+        border-top: 1px solid black;
+    }
+    
+    h3 {
+        border: none;
+        font-family: $heading-font-family;
+        font-size: $small-font-size;
+        line-height: 18px;
+        margin: 0px;
+    }
+    
+    h4 {
+        border: none;
+        font-family: $heading-font-family;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    ul {
+        font-size: 9px;
+        list-style: disc;
+        margin-left: 13px;
+    }
+
+    .dateRange {
+        font-family: $heading-font-family;
+        font-size: 16px;
+    }
+
+    aside {
+        margin-top: 30px;
+        padding-right: 20px;
+        width: 160px;
+        
+        p, dt, dl {
+            font-size: 16px;
+            line-height: 18px;
+        }
+        
+        p {
+            margin: 0px;
+            font-family: $base-italic-font-family;
+        }
+        
+        dt {
+            font-family: $base-italic-font-family;
+        }
+        
+        dd {
+            font-size: 14px;
+            margin-bottom: 8px;
+            margin-left: 13px;
+        }
+        
+        .liText {
+            font-size: 16px;
+            line-height: 18px;
+            vertical-align: middle;
+        }
+        
+        .leftBlock:first-of-type {
+            margin-top: 0px;
+        }
+        
+        .leftBlock {
+            margin-top: 300px;
+        }
+    }
+    
+    .resCategory {
+        font-family: $base-italic-font-family;
+        margin: 0px;
+    }
+    
+    article {
+        border-left: 1px solid black;
+        float: right;
+        margin-top: 22px;
+        padding-left: 20px;
+        width: 720px;
+        
+        p, dt, dl {
+            font-size: 20px;
+            line-height: 24px;
+        }
+        
+        li {
+            line-height: 24px;
+        }
+        
+        .liText {
+            font-size: 20px;
+            vertical-align: middle;
+        }
+        
+        .split {
+            display: inline-block;
+            margin-bottom: 30px;
+            vertical-align: top;
+            width: 340px;
+        }
+        
+        .split:first-of-type {
+            margin-right: 35px;
+        }
+        
+        .block {
+            display: block;
+            margin-bottom: 25px;
+        }
+        
+        .left {
+            float: left;
+            width: 550px;
+        }
+        
+        .right {
+            float: right;
+            width: 140px;
+            
+            .liText {
+                font-size: 16px;
+            }
+        }
+    }
+    
+    .block {
+        display: block;
+    }
+    
+    
+    @include media-query($on-palm) {
+        
+        h2:nth-of-type(2) {
+            border-top: 1px solid black;
+            padding-top: 10px;
+        }
+        
+        aside {
+            float: none;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            
+            h4 {
+                border-top: 1px solid black !important;
+                font-size: 20px;
+                text-align: left;
+                margin-bottom: 15px;
+            }
+            
+            .leftBlock {
+                margin: 0px;
+            }
+            
+            .liText {
+                font-size: 20px;
+                line-height: 24px;
+            }
+            
+            p, dt, dl, dd {
+                font-size: 20px;
+                line-height: 24px;
+            }
+        }
+
+        
+        article {
+            border: none;
+            margin: 0px;
+            padding: 0px;
+            float: none;
+            width: 100%;
+            
+            .split:first-of-type {
+                margin: 0px;
+            }     
+            
+            .split {
+                display: inline;
+                margin: 0px;
+                width: 100%;
+            }
+            
+            .left {
+                float: none;
+                width: 100%;
+            }
+            
+            .right {
+                float: none;
+                width: 100%;
+                
+                .liText {
+                    font-size: 20px;
+                }
+            }
         }
     }
 }

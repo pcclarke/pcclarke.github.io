@@ -12,7 +12,8 @@
         </ul>
       </div>
 
-      <!--<div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-2">
+        <p>Social media I occassionally use:</p>
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -25,13 +26,26 @@
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
+          
+          {% if site.linkedin_username %}
+          <li>
+            {% include icon-linkedin.html username=site.linkedin_username %}
+          </li>
+          {% endif %}
+          
+          {% if site.tumblr_username %}
+          <li>
+            {% include icon-tumblr.html username=site.tumblr_username %}
+          </li>
+          {% endif %}          
         </ul>
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <p>Read my data visualization blog!</p>
+        <a href="http://3pats.ca"><span class="icon icon--3pats">{% include icon-3pats.svg %}</span><span class="username">3Pats</span></a>
       </div>
-    </div>-->
+    </div>
 
   </div>
 

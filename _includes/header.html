@@ -2,7 +2,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">{% include name-fraktur.svg %}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -15,14 +15,10 @@
 
       <div class="trigger">
         {% for my_page in site.pages %}
-          {% if my_page.title %}
+          {% if my_page.tags == 'root' %}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
-        <a class="page-link" href="http://3pats.ca" title="My data visualization blog">3Pats</a>
-        <a class="page-link" href="http://onaclarke.tumblr.com" title="Work in progress and other miscellany">Tumblr</a>
-        <a class="page-link" href="https://github.com/pcclarke" title="GitHub is very useful for many things, such as making this site">GitHub</a>
-        <a class="page-link" href="http://ca.linkedin.com/in/pcclarke" title="I'm on LinkedIn. Hooray!!!!!!">LinkedIn</a>
       </div>
     </nav>
 
