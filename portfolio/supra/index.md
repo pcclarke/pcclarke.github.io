@@ -10,7 +10,6 @@ tags: portfolio
 <div class="piece">
     <div id="supraFeature" class="feature">
         <img src="supra_final.jpg" />
-        <p><a href="index.html">View the Arthritis for Fitbit final prototype</a></p>
     </div>
     <div class="block">
         <div class="left">
