@@ -293,6 +293,28 @@
 .link, .caseLink {
     text-transform: uppercase;
 }
+
+.imageGrid {
+    img {
+        margin: 0px 16px 16px 0;
+        width: 300px;
+    }
+    
+    img:nth-of-type(3n) {
+        margin-right: 0px;
+    }
+    
+    @include media-query($on-palm) {
+        img, img:nth-of-type(3n) {
+            margin: 0px 2% 2% 0;
+            width: 46%;
+        }
+        
+        img:nth-of-type(2n) {
+            margin-right: 0px;
+        }
+    }
+}
  
 div .piece {
     margin-top: 100px;

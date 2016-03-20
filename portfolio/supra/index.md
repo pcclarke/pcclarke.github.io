@@ -19,57 +19,148 @@ tags: portfolio
             <p>This was a project I worked on for my last two years in SIAT, which started as a directed studies course with Professor <a href="http://www.sfu.ca/~shaw/">Chris Shaw</a> and then grew into a research assistant position in his lab. The concept as presented was straightforward: create data visualizations based on Fitbit data to encourage people with arthritis to get more exercise. These would be used by physiotherapists to monitor and assist their patients’ health.</p>
             <p>My first task was to determine what this project would become. I had a huge amount of room to work within, and a challenging goal. Fitbit already has a perfectly decent dashboard, and it’s already helped me get more exercise. What would a dashboard for arthritis sufferers look like, and what features would it have? My approach was to sketch like mad, and empty out of my head whatever ideas I could think up about an arthritis visualization.</p>
         </div>
-    </div>
-    <div class="block">
-        <div class="left">
-            <img src="supra_sketch.jpg" class="lesser" />
-        </div>
-        <div class="right">
-            <p>A sketch showing one of the calendar layouts I came up with. Note the "crosshairs", which allowed different days in the month to be compared. One day's data could be dragged to the right panel to be saved for later or shared on social media.</p> 
-        </div>
         <div class="clear"></div>
     </div>
+    <div class="block imageGrid">
+        <img src="supra_sketch-1.jpg" />
+        <img src="supra_sketch-2.jpg" />
+        <img src="supra_sketch-3.jpg" />
+        <img src="supra_sketch-4.jpg" />
+        <img src="supra_sketch-5.jpg" />
+        <img src="supra_sketch-6.jpg" />
+        <img src="supra_sketch-7.jpg" />
+        <img src="supra_sketch-8.jpg" />
+        <img src="supra_sketch-9.jpg" />
+        <img src="supra_sketch-10.jpg" />
+        <img src="supra_sketch-11.jpg" />
+        <img src="supra_sketch-12.jpg" />
+    </div>
+    
     <div class="block">
         <div class="left">
             <h3>Digging in</h3>
             <p>Along with sketching, I also looked up what other health researchers were doing with Fitbit and other fitness trackers. There had been a small, but growing, trend of interest in using Fitbit devices over the past few years. Most of this research concentrated on whether Fitbit devices should be used in health care. Fitbits aren’t as accurate as some of the medical-grade fitness trackers, but they’re much cheaper and less bulky to wear. For most patients, they were good enough. Research in using Fitbits for motivation was still rare at the time.</p>
             <p>After working through a number of iterations, the most interesting concepts found by my supervisor in my designs were calendars. They offered ways for users to compare their activity to previous days, which would be especially useful if they could log how they felt. For example, users could log when they felt sore, then track on what days they were sore with the application. Fitbit’s existing dashboard buried this information on a separate logging page, and we knew that logging pain or medications easily would be a major improvement for arthritis sufferers.</p>
-            <p>Of course I wasn’t just designing a calendar, I was designing an interactive data visualization calendar. I pushed ahead with the concept of treating the square for each day as the foundational element of my design. Each day could be treated like a card that users can manipulate or share with others.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block imageGrid">
+        <img src="supra_sketch-13.jpg" />
+        <img src="supra_sketch-14.jpg" />
+        <img src="supra_sketch-15.jpg" />
+        <img src="supra_sketch-16.jpg" />
+        <img src="supra_sketch-17.jpg" />
+        <img src="supra_sketch-18.jpg" />
+        <img src="supra_sketch-19.jpg" />
+        <img src="supra_sketch-20.jpg" />
+        <img src="supra_sketch-21.jpg" />
+        <img src="supra_sketch-22.jpg" />
+        <img src="supra_sketch-23.jpg" />
+        <img src="supra_sketch-24.jpg" />
+        <img src="supra_sketch-25.jpg" />
+        <img src="supra_sketch-26.jpg" />
+        <img src="supra_sketch-27.jpg" />
+    </div>
+    
+    <div class="block">
+        <div class="left">
+            <p>Of course I wasn’t just designing a calendar, I was designing an interactive data visualization calendar. Calendars already a social medium—we give our time to others—and I was exploring how to use them as a social medium for data visualization. The foundational unit of a calendar is the day, the square box representing one unit of time. In my sketches, I turned the static days into interactive cards. Each day could be treated like a card that users can manipulate or share with others.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <img src="supra_sketch.jpg" class="lesser" />
+    </div>
+            
+    <div class="block">
+        <div class="left">
             <p>During this time, I learned how to access the Fitbit API, which allowed me to create a few simple prototypes in Processing. I used these simple prototypes to test out my designs, and experiment with different forms of interaction. Around the lab I felt like Johnny Appleseed of the Fitbit API, helping others get access to the API for their own research projects by teaching them about RESTful APIs and OAuth.</p>
         </div>
         <div class="clear"></div>
     </div>
+    
     <div class="block">
         <div class="left">
             <h3>Seniors betting on their health. Yes, really.</h3>
-            <p>It was at this time that we came up with one of the wackier ideas for the project, gambling. Concerned that we didn’t have enough of a motivation for users, my supervisor suggested a monetary incentive. With my economics background, it didn’t take long for me to think up with a gambling system. Users could bet on each other’s success at hitting a specified number of steps per day. If they are successful, they collect the money. But to make the gambling friendly, a loss does not go to the other users–we don’t want them discouraging each other! Instead, users pick a charity of their choice, with the money lost going to that charity. That way the incentives create win-win situation: even if a user misses their goal, the money goes to a cause they support. That is, unless they pick a charity they don’t support for extra motivation…</p> 
+            <p>It was at this time that we came up with one of the wackier ideas for the project, gambling. Concerned that we didn’t have enough of a motivation for users, my supervisor suggested a monetary incentive. With my economics background, it didn’t take long for me to think up with a gambling system.</p> 
         </div>
     </div>
+    
     <div class="block">
         <div class="left">
-            <img src="supra_bet.jpg" class="lesser" />
+            <img src="supra_bet-1.jpg" class="lesser" />
         </div>
         <div class="right">
-            <p>One of the more amusing features I came up with was a system to allow users to bet on each others' success. If you achieve your fitness goal for that week, you collect the money, lose and it goes to a charity of your choice. It didn't go over well with the physiotherapists.</p> 
+            <p>Betting without money: "hostage" goods, given away if goals aren't met. Too complicated.</p> 
         </div>
         <div class="clear"></div>
     </div>
+    
+    <div class="block">
+        <div class="left">
+            <p>Users could bet on each other’s success at hitting a specified number of steps per day. If they are successful, they collect the money. But to make the gambling friendly, a loss does not go to the other users–we don’t want them discouraging each other! Instead, users pick a charity of their choice, with the money lost going to that charity. That way the incentives create win-win situation: even if a user misses their goal, the money goes to a cause they support. That is, unless they pick a charity they don’t support for extra motivation…</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <div class="imageGrid">
+            <img src="supra_bet-2.jpg" />
+            <img src="supra_bet-3.jpg" />
+            <img src="supra_bet-4.jpg" />
+        </div>
+    </div>
+    
+    <div class="block">
+        <img src="supra_bet-full.jpg" />
+    </div>
+    
     <div class="block">
         <div class="left">
             <h3>Plentiful prototypes</h3>
             <p>Feeling confident with what I was doing, my supervisor decided it was time we presented my work to the group of physiotherapists we were collaborating with. I created some higher fidelity designs in Illustrator, focusing on building the layout over any particular aesthetic. They were essentially slightly more attractive wireframes. The typeface, Myriad, and the colour scheme were chosen to evoke a friendly, low-key appearance. The focus, and most of the colours, was on the data.</p>
-            <p>The physiotherapists were pleased with the Illustrator designs, especially when they proved to be useful obtaining grant money. While it was nice that they liked the designs, I felt uncomfortable going for so long without in-depth feedback from anyone other than my supervisor. I took the Illustrator designs and used them as a base to create an interactive prototype in Axure. My goal was to build a click-through prototype that made sure I fully understood what the physiotherapists wanted for features, rather than to simulate the functionality of the data visualizations.</p>
         </div>
+        <div class="clear"></div>
     </div>
+    
     <div class="block">
         <div class="left">
-            <img src="supra_take1.jpg" class="lesser" />
+            <img src="fit_mockup1.jpg" class="lesser" />
         </div>
         <div class="right">
             <p>A high-fidelity mockup of the calendar layout. Selecting a day brings up the panel in the centre, loosely inspired by iTunes' album display.</p> 
         </div>
         <div class="clear"></div>
     </div>
+    
+    <div class="block">
+        <div class="left">
+            <img src="fit_mockup2.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>The group page of the Illustrator mockup, featuring the gambling area and friends list.</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <div class="left">
+            <img src="fit_mockup3.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>The analysis page, showing past trends overlaid onto weeks of data.</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
+            
+    <div class="block">
+        <div class="left">
+            <p>The physiotherapists were pleased with the Illustrator designs, especially when they proved to be useful obtaining grant money. While it was nice that they liked the designs, I felt uncomfortable going for so long without in-depth feedback from anyone other than my supervisor. I took the Illustrator designs and used them as a base to create an interactive prototype in Axure. My goal was to build a click-through prototype that made sure I fully understood what the physiotherapists wanted for features, rather than to simulate the functionality of the data visualizations.</p>
+        </div>
+    </div>
+
     <div class="block">
         <div class="left">
             <p>The Axure prototype didn’t see much use, unfortunately, because my supervisor felt that we needed to have the visualizations up and running soon, so my attention turned to them. I began work on a Processing prototype with all of the features present in the Illustrator mockups and Axure prototype, but actually working. At the time, I wasn’t familiar with other data visualization tools, so it seemed like Processing would be the best and fastest choice for building a fully functional prototype. The aesthetic of this prototype remained similar to the Illustrator and Axure prototypes because I was still concentrating on the layout and data visualization design.</p>
