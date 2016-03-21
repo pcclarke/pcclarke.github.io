@@ -71,7 +71,7 @@ tags: portfolio
     </div>
     
     <div class="block">
-        <img src="supra_sketch.jpg" class="lesser" />
+        <img src="supra_sketch-full.jpg" class="lesser" />
     </div>
             
     <div class="block">
@@ -185,6 +185,16 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
+    
+    <div class="block">
+        <div class="left">
+            <img src="in_progress1.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>The calendar screen with data from two users shown, selected on the left sidebar. Saved days are located on the right sidebar.</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
             
     <div class="block">
         <img src="proc-proto-rec1.gif" />
@@ -209,21 +219,56 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
+    
     <div class="block">
         <div class="left">
             <h3>The value of criticism</h3>
             <p>When we presented this interactive prototype to the physiotherapists, my concerns about getting enough feedback were proven correct. We discovered that we hadn’t done nearly enough to understand their needs or even just get some basic requirements. I was trying to encourage users get more exercise, but I was warned this was actually dangerous: people with arthritis can't and shouldn't move too much. They need just the right amount of exercise to get their joints flexible without causing injury. This made visualizing the goal that much harder. Different users might need to get exercise at different times of the day for some limited amount.</p>
             <p>Gambling shot down by the physiotherapist group as well, because aside from being vaguely offensive it would encourage too much exercise. It also hit me just how far off we were from understanding our users. For example, I and pretty much everyone I knew thought that the flower visualization was totally useless. On Fitbit devices, there’s a flower whose height is determined by how close you are to hitting your goals. But I can’t even tell what goal it’s based on, and it’s difficult to tell exactly where I am. We discovered that among the seniors that the physiotherapists worked with, they all loved the flower, far more than reading the exact data points. This was a total shock to me: even my mom didn’t like the flower!</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+        <div class="block">
+        <div class="left">
+            <img src="fitbit_flower.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>The flower visualization on the Fitbit One. I think this is what it looks like when you've hit your daily goal, but there may still be more room at the "top".</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <div class="left">
             <p>Surprisingly, the one thing I made that did go over well was the experimental visualization. When the physiotherapists saw this, they exclaimed in unison “that’s it!” It turned out that showing activity in chunks was not only what they had wanted, but that there was even a formal definition for what constituted a bout of activity for physiotherapy. The entire discussion at the meeting pivoted to how we could make this visualization work, as it had gone from being a cute experiment to vital for the project’s success. It was like I had somehow read their minds.</p>
             <p>This was a very hard lesson in how important critiques are. Most of my Processing prototype—that I had spent weeks on—turned out to be useless. There was literally no point pulling it forwards because we needed a website, not a Java application. If I had this feedback much earlier in the design process, I would have been able to hone in on the right design far sooner. But the silver lining was that I had also discovered the value of experimentation. By essentially redesigning the data, I was able to produce a totally original data visualization. The lesson here is that design has to extend much farther beyond than just visuals and interfaces to be successful.</p> 
         </div>
         <div class="clear"></div>
     </div>
+    
     <div class="block">
         <div class="left">
             <h3>On a track</h3>
             <p>Now knowing that I had finally found the right design, I had to get the design right. The circles in my original design looked attractive, but were essentially redundant. The size of the circle and its vertical location were basically the same data, the total steps and average steps for the bout period. Yet after having thrown out so many ideas, there wasn’t an obvious path to take. The worst part was that I had to throw out most of my Processing prototype, which made me leery of going back to code until I was sure that I had a design I felt confident in.</p>
             <p>But due to the challenges of working with professionals who were otherwise busy, I wasn’t able to get more feedback from the physiotherapists group. As ever, my approach in this situation was to go back to paper and get some fresh ideas. Feeling inspired by the flower, I tried more cartoon figures, using trees and plants to symbolize progress. But I didn’t feel like these were especially easy to read or logical, and I seemed to be just repeating the problems I found in the flower.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+            
+    <div class="block">
+        <div class="imageGrid">
+            <img src="supra_sketch-late-08.jpg" />
+            <img src="supra_sketch-late-15.jpg" />
+            <img src="supra_sketch-late-23.jpg" />
+            <img src="supra_sketch-late-28.jpg" />
+            <img src="supra_sketch-late-29.jpg" />
+            <img src="supra_sketch-late-31.jpg" />
+        </div>
+    </div>
+            
+    <div class="block">
+        <div class="left">
             <p>In a bit of serendipity, I went to the library to do some research, where I found a book on health care architecture. The simple, lively colours used there inspired me to experiment with much more minimalist forms. And yet, they almost perfectly achieved what the physiotherapists were looking for. I communicated activity and inactivity with just two colours, and whether that was good or bad with solid or stripes. My favourite touch was the use of “shadows” from the bars to indicate cool down times when users should take a break from exercise. When my supervisor and the physiotherapists saw them, they were very pleased with the designs.</p>
         </div>
         <div class="clear"></div>
