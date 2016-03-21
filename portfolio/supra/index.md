@@ -82,6 +82,18 @@ tags: portfolio
     </div>
     
     <div class="block">
+        <div class="imageGrid">
+            <img src="proc-proto-1.jpg" />
+            <img src="proc-proto-2.jpg" />
+            <img src="proc-proto-3.jpg" />
+        </div>
+    </div>
+    
+    <div class="block">
+        <img src="proc-proto-rec3.gif" />
+    </div>
+    
+    <div class="block">
         <div class="left">
             <h3>Seniors betting on their health. Yes, really.</h3>
             <p>It was at this time that we came up with one of the wackier ideas for the project, gambling. Concerned that we didn’t have enough of a motivation for users, my supervisor suggested a monetary incentive. With my economics background, it didn’t take long for me to think up with a gambling system.</p> 
@@ -157,24 +169,43 @@ tags: portfolio
             
     <div class="block">
         <div class="left">
-            <p>The physiotherapists were pleased with the Illustrator designs, especially when they proved to be useful obtaining grant money. While it was nice that they liked the designs, I felt uncomfortable going for so long without in-depth feedback from anyone other than my supervisor. I took the Illustrator designs and used them as a base to create an interactive prototype in Axure. My goal was to build a click-through prototype that made sure I fully understood what the physiotherapists wanted for features, rather than to simulate the functionality of the data visualizations.</p>
+            <p>The physiotherapists were pleased with the Illustrator designs, especially when they proved to be useful obtaining grant money. While it was nice that they liked the designs, I felt uncomfortable going for so long without in-depth feedback from anyone other than my supervisor. I took the Illustrator designs and used them as a base to create an interactive prototype in Axure. Then using the exported Axure webpage, I inserted one of the simple Processing sketches I had made to fully mock up the design. This came very close to being a fully functional interactive prototype, which gave me a good sense of how all the pieces could fit together.</p>
         </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <img src="axure-proto-rec3.gif" />
     </div>
 
     <div class="block">
         <div class="left">
             <p>The Axure prototype didn’t see much use, unfortunately, because my supervisor felt that we needed to have the visualizations up and running soon, so my attention turned to them. I began work on a Processing prototype with all of the features present in the Illustrator mockups and Axure prototype, but actually working. At the time, I wasn’t familiar with other data visualization tools, so it seemed like Processing would be the best and fastest choice for building a fully functional prototype. The aesthetic of this prototype remained similar to the Illustrator and Axure prototypes because I was still concentrating on the layout and data visualization design.</p>
             <p>My Processing prototype represented a major advance in the design. The calendar could be navigated, and days could be selected to view in detail. As well, days could be dragged onto the sidebar for comparison, fulfilling the cards metaphor. And the gambling screen was shown in all its competitive glory. My personal favourite touch was the “crosshairs”, the vertical and horizontal lines that followed the mouse that let users compare multiple days simultaneously. The crosshairs made it possible to compare the same time of day across weeks, or the same level of activity across a week.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+            
+    <div class="block">
+        <img src="proc-proto-rec1.gif" />
+    </div>
+    <div class="block">
+        <img src="proc-proto-rec2.gif" />
+    </div>
+            
+    <div class="block">
+        <div class="left">
             <p>Since I wasn’t able to get as much feedback as I liked from the physiotherapists, and I didn’t have the time to find seniors with arthritis for user testing, I went to the next best thing: my mom. Conveniently (for me, not her) she suffers from arthritis in the hip, making her a perfect candidate for collecting data and testing with.</p> 
             <p>In the research I had done earlier, I read that Fitbit had difficulty tracking irregular steps. I picked up the pandas library for Python, and started playing around with my mom’s data. I noticed that there did seem to be more gaps of inactivity in my mom’s data, which made it difficult to draw as a time plot. The gaps were so small that the pixels blobbed together on screen. I tried to chunk together the data into blocks of activity. This was interesting enough that I made it into an experimental visualization. The blocks of activity were visualized as circles, and I modified the gambling goals into lines for the circles to match in size.</p>
         </div>
     </div>
+    
     <div class="block">
         <div class="left">
             <img src="supra_take2.jpg" class="lesser" />
         </div>
         <div class="right">
-            <p>The first visualization created after my breakthrough with chunking the data; the final one is at the top of this section.</p> 
+            <p>Each circle represents a block activity, with some tolerance for inactivity (e.g. 5 minutes) before the block ends. The line is the average number of steps during the block, and the circle the total number of steps.</p> 
         </div>
         <div class="clear"></div>
     </div>
@@ -197,12 +228,23 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
+    
+    <div class="block">
+        <img src="minimalist-1.jpg" />
+        <img src="minimalist-2.jpg" />
+        <img src="minimalist-3.jpg" />
+    </div>
+    
     <div class="block">
         <div class="left">
             <h3>Results</h3>
             <p>The final step was to build the web application that the physiotherapists were looking for. I was only involved in the beginning of this by implementing my design in d3.js. That much was used as a basis for a simple test by the physiotherapist group with users. They were able to log in with their data, and found it to work well. Another one of the researchers in the lab took over the project at that point, and he is still working the other aspects of the website to completion.</p>
         </div>
         <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <img src="supra_diagram.jpg" />
     </div>
 
     <div class="techs">
