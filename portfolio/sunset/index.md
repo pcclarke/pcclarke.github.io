@@ -25,11 +25,59 @@ tags: portfolio
             <h3>The project brief</h3>
             <p>This project was for a course in speculative design, where design thinking was applied to solve real problems faced by the City of Vancouver.  Of the three projects offered by the city, my team chose to work on displaying energy consumption for city buildings. The engineers felt that their hard work to bring the city’s buildings up to LEED green standards had gone unnoticed by residents. They hoped that with this project we could bring attention to it, and communicate the benefits of the buildings to visitors.</p>
             <p>Being a speculative design course, we were encouraged to start of with as many wild and zany ideas as possible. We were even discouraged to think about how practical our designs were. This is one of my favourite parts of a project, when just about anything seems possible. Each week in this course there would be a critique or presentation, the first being to select from these initial sketches.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+            
+    <div class="block">
+        <div class="imageGrid">
+            <img src="sunset_sketch-01.jpg" />
+            <img src="sunset_sketch-04.jpg" />
+            <img src="sunset_sketch-08.jpg" />
+            <img src="sunset_sketch-12.jpg" />
+            <img src="sunset_sketch-21.jpg" />
+            <img src="sunset_sketch-24.jpg" />
+            <img src="sunset_sketch-27.jpg" />
+            <img src="sunset_sketch-28.jpg" />
+            <img src="sunset_sketch-32.jpg" />
+            <img src="sunset_sketch-34.jpg" />
+            <img src="sunset_sketch-36.jpg" />
+            <img src="sunset_sketch-37.jpg" />
+        </div>
+    </div>
+            
+    <div class="block">
+        <div class="left">
             <p>The city engineers were considering putting up a screen with data visualizations in city hall to display the buildings’ energy use. With my sketches, I was exploring what was the design space for visualizing data, what could be a data visualization, and if we needed to visualize data at all. I drew mostly physical objects because I thought that there was a huge opportunity to use the space in the buildings, adding or changing them to show energy use.</p>
         </div>
         <div class="clear"></div>
     </div>
     
+    <div class="block">
+        <div class="left">
+            <h3>Refining the rough designs</h3>
+            <p>Out of the many sketches and I my teammates made, we narrowed it down to two designs. My “winning” idea was based on Edward Tufte’s wavefield concept, except instead of video I would try to actually build it. A flowing panel of water represented water consumption by speed and acted as a surface for a projected data visualization. The key idea to the design was that data could be represented by materials, either literally (with water) or abstractly (light for natural gas) so that people could actually touch the data. I felt that touching the data would give it much more impact than a chart on a screen.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+            
+    <div class="block">
+        <div class="left">
+            <img src="431_handout_1.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>A handout sheet I made for the wavefields, giving an overview of the concept.</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <div class="left">        
+            <p>My teammate’s idea was to create cloud-shaped pillows, whose colours would display energy use of the building they were in. When people hugged them, they would show more detail about the building’s energy use.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
     <div class="block">
         <div class="left">
             <img src="early_concept1.jpg" class="lesser" />
@@ -42,9 +90,16 @@ tags: portfolio
     
     <div class="block">
         <div class="left">
-            <h3>Refining the rough designs</h3>
-            <p>Out of the many sketches and I my teammates made, we narrowed it down to two designs. My “winning” idea was based on Edward Tufte’s wavefield concept, except instead of video I would try to actually build it. A flowing panel of water represented water consumption by speed and acted as a surface for a projected data visualization. The key idea to the design was that data could be represented by materials, either literally (with water) or abstractly (light for natural gas) so that people could actually touch the data. I felt that touching the data would give it much more impact than a chart on a screen.</p>
-            <p>My teammate’s idea was to create cloud-shaped pillows, whose colours would display energy use of the building they were in. When people hugged them, they would show more detail about the building’s energy use.</p>
+            <img src="wavefield_interact.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>We also toyed with the idea of putting the wavefields in pipes, and focusing on just the water interaction.</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="block">
+        <div class="left">
             <p>We then had a couple of weeks for refining and realizing the designs. I took photos of the buildings where our designs would be situated, so that our presentations could better show how they would actually look. Most of the work was determining specifics so that we could present them in class with more detail than a rough sketch. With the wavefield design, we struggled to figure out where it would be located, settling on attaching it to a wall so that there would be room for projectors and display panels. A rectangular shape was chosen so that there would be a clear start and ending point for the water flow.</p> 
             <p>I also investigated the technical side of the energy consumption project. The city had connected their newest buildings to a web API that provided consumption data. Depending on the building, you could get electricity, water, or natural gas usage. I worked with city officials to learn about how these systems worked to understand and inspire how I could refine my designs further. Once I realized that it was possible to have live data updates, I explored whether it would be possible to have interaction with the wavefield. Water-based gestures or perhaps a touchscreen underneath the water sounded like a cool idea in theory.</p>
         </div>
@@ -81,7 +136,7 @@ tags: portfolio
             <img src="early_concept3.jpg" class="lesser" />
         </div>
         <div class="right">
-            <p>Using air pressure in balloons to represent the energy use. Seemed like a good concept, but the actual design needed some work. It also proved difficult to get the air pressure high enough to inflate the balloon in our prototypes.</p> 
+            <p>The baloons in action at Sunset Community Centre.</p> 
         </div>
         <div class="clear"></div>
     </div>
