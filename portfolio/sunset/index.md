@@ -15,7 +15,7 @@ tags: portfolio
     <div class="block">
         <div class="left">
             <h3>Overview</h3>
-            <p>Sunset Sails is a design for data visualization installations around the Sunset Community Centre in Vancouver, BC. They show how much natural gas the building is using by how much air is being blown through the sails. Visitors in the building can look at the sails to learn about how energy efficient the building is, and can get a real sense of when they should use less energy.</p>
+            <p>Sunset Sails is a design for data visualization installations around the <a href="http://vancouver.ca/parks-recreation-culture/sunset-community-centre.aspx">Sunset Community Centre</a> in Vancouver, BC. They show how much natural gas the building is using by how much air is being blown through the sails. Visitors in the building can look at the sails to learn about how energy efficient the building is, and can get a real sense of when they should use less energy.</p>
         </div>
         <div class="clear"></div>
     </div>
@@ -132,6 +132,17 @@ tags: portfolio
     </div>
     
     <div class="block">
+        <div class="imageGrid">
+            <img src="sunset_sketch-43.jpg" />
+            <img src="sunset_sketch-44.jpg" />
+            <img src="sunset_sketch-46.jpg" />
+            <img src="sunset_sketch-49.jpg" />
+            <img src="sunset_sketch-50.jpg" />
+            <img src="sunset_sketch-52.jpg" />
+        </div>
+    </div>
+    
+    <div class="block">
         <div class="left">
             <img src="early_concept3.jpg" class="lesser" />
         </div>
@@ -143,24 +154,42 @@ tags: portfolio
     
     <div class="block">
         <div class="left">
-            <h3>Wait, we’re going to build this thing?</h3>
-            <p>In preparation for the next round of presentations, I started building a small-scale physical prototype. I was able to use data from the city building API, and worked on ways of getting that to control a motor using an Arduino board.</p>
-            <p>Our next presentation went pretty well, especially considering that the class was shocked we had dropped both of our refined designs from before. Most of the feedback we got was about the material of the balloon, and how exactly the size of the balloon could be understood by viewers.</p>
-            <p>However, my prototyping had uncovered a major catch in using balloons: getting the amount of air pressure necessary for inflating a balloon would be difficult, and whether we could control it with an Arduino was totally unknown. With the amount of time left in the course, it was too big of a risk to be spending all of our time trying to figure it out. Instead, we made one final refinement, from balloons to sails. The same principle, but now we just needed to control fans.</p>
-            <p>I connected a series of small fans to my Arduino board, which allowed me to test different blowing patterns. It was clear from the start that just on and off wouldn’t work. We would have to pick a point at which the energy consumption was too much, then turn the fans on. That would also mean the fans would be off for most of the day. Not much point that. Going back to my idea of treating the balloons as lungs for the building, I tested different rates at which the fans would go on and off. When too much energy was being used, the the fans flipped on and off suddenly, as if they were hyperventilating. When less energy was being used, the fans ran for longer periods, like calm breathing.</p>
+            <img src="early_concept4.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>Mounting baloons on the walls.</p> 
         </div>
         <div class="clear"></div>
     </div>
     
     <div class="block">
         <div class="left">
-            <img src="early_concept4.jpg" class="lesser" />
-        </div>
-        <div class="right">
-            <p>Instead of putting the balloons on poles, we put the balloons on walls. Then we powered them with fans, which were much easier to build, resulting in the final design: sails!</p> 
+            <h3>Wait, we’re going to build this thing?</h3>
+            <p>In preparation for the next round of presentations, I started building a small-scale physical prototype. I was able to use data from the city building API, and worked on ways of getting that to control a motor using an Arduino board.</p>
+            <p>Our next presentation went pretty well, especially considering that the class was shocked we had dropped both of our refined designs from before. Most of the feedback we got was about the material of the balloon, and how exactly the size of the balloon could be understood by viewers.</p>
+            <p>However, my prototyping had uncovered a major catch in using balloons: getting the amount of air pressure necessary for inflating a balloon would be difficult, and whether we could control it with an Arduino was totally unknown. With the amount of time left in the course, it was too big of a risk to be spending all of our time trying to figure it out. Instead, we made one final refinement, from balloons to sails. The same principle, but now we just needed to control fans.</p>
         </div>
         <div class="clear"></div>
     </div>
+    
+    <div class="block">
+        <div class="left">
+            <img src="sunset_proto-slide.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>A slide from my presentation on how the prototype would be assembled.</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
+            
+    <div class="block">
+        <div class="left">
+            <p>I connected a series of small fans to my Arduino board, which allowed me to test different blowing patterns. It was clear from the start that just on and off wouldn’t work. We would have to pick a point at which the energy consumption was too much, then turn the fans on. That would also mean the fans would be off for most of the day. Not much point that. Going back to my idea of treating the balloons as lungs for the building, I tested different rates at which the fans would go on and off. When too much energy was being used, the the fans flipped on and off suddenly, as if they were hyperventilating. When less energy was being used, the fans ran for longer periods, like calm breathing.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+
     
     <div class="block">
         <div class="left">
@@ -180,6 +209,26 @@ tags: portfolio
         <div class="left">
             <h3>Results</h3>
             <p>The result was much rougher than I would have hoped– “you’re still one more iteration away from getting it right” said my professor–yet I did manage to produce a fully functional scale prototype. The Arduino in the prototype connected to the city's green buildings, delivering live energy usage data that controlled motors in the prototype. And the posters were reasonably effective at explaining the design, even if their own design was sparse. The city probably wouldn’t ever take on such a project, yet after so much toil I was relieved and proud to have a solid proof of an innovative design.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <div class="left">
+            <img src="sunset_model-1.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>The physical prototype, showing a slice of Sunset Community Centre's walls with the sails attached.</p> 
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <div class="block">
+        <div class="left">
+            <img src="sunset_model-2.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>The physical prototype from the side, with the backing of the sails visible and the wires to the (not shown) Arduino board.</p> 
         </div>
         <div class="clear"></div>
     </div>
