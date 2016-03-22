@@ -15,7 +15,7 @@ tags: root
         </div>
         <h2>Work Experience</h2>
         <div class="block">
-            <h3>Research Assistant, SFU CZLab</h3>
+            <h3>Visual Analytics Research Assistant, SFU CZLab</h3>
             <p class="dateRange">May 2014 &ndash; May 2015</p>
             <div class="left">
                 <p class="resCategory">Context</p>
@@ -41,7 +41,7 @@ tags: root
             <div class="clear"></div>
         </div>
         <div class="block">
-            <h3>Technical Writer, FINCAD</h3>
+            <h3>Technical Writer/Developer, FINCAD</h3>
             <p class="dateRange">May 2013 &ndash; May 2015</p>
             <div class="left">
                 <p class="resCategory">Context</p>
