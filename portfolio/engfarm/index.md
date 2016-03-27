@@ -11,7 +11,7 @@ tags: portfolio
     <h3 id="engfarm">English Farm Prices History</h3>
     <div id="engfarmFeature" class="feature">
         <img src="{{ site.baseurl }}/portfolio/engfarm/engfarm_final.jpg" />
-        <p class="link"><a href="index.html">View the Interactive Data Visualization</a></p>
+        <p class="link"><a href="demo/index.html">View the Interactive Data Visualization</a></p>
     </div>
     <div class="techs">
         <p>Technologies used:</p>

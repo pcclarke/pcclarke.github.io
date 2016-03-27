@@ -51,7 +51,6 @@ tags: root
             <h3>English Farm Prices History</h3>
             <p>An interactive data visualization for exploring historical economic farm data.</p>
             <p class="caseLink"><a href="{{ site.baseurl }}/portfolio/engfarm/">Read more</a></p>
-            <p class="caseLink"><a href="index.html">View the Interactive Data Visualization</a></p>
         </div>
         <div class="rightPort">
             <img src="engfarm/engfarm_final.jpg" />
