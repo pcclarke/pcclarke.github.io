@@ -20,7 +20,7 @@ tags: root
             <div class="left">
                 <p class="resCategory">Context</p>
                 <ul>
-                    <li><span class="liText">Spearheaded research towards using fitness trackers to alleivate arthritis</span></li>
+                    <li><span class="liText">Spearheaded research towards using fitness trackers to alleviate arthritis</span></li>
                     <li><span class="liText">Aimed to design a UI that supported physiotherapists and their patients</span></li>
                 </ul>
                 <p class="resCategory">Responsibilities</p>
