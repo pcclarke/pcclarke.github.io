@@ -10,29 +10,36 @@ tags: root
 Objective
 --------------
 
-Adept designer with a solid backing in coding and understanding user needs. Focused towards crafting elegant UX/UI and information design in software development. Broad skillset can fill many roles, and opens fresh perspectives when cracking wicked problems. Especially talented at communication, whether writing, presenting, or working among varied specialists.
+Versatile designer and interface developer skilled in crafting complexity into elegant user experiences and information design.
 
 Skills
 --------
 
 Design:
 
-- Data Visualization
-- User Interface Design
+- User Interface
 - User Testing
 - Prototyping
-- Design Methodologies
+- User Experience
+- Data Visualization
 
 Development:
 
-- Web Development
-- Android Development
-- Agile Development
+- HTML/CSS
+- JavaScript
+- Java
+- C
+- C++
+- C#
+- Python
 
 Communication:
 
-- Public speaking
 - Technical Writing
+- Instructional Design
+- Copywriting
+- Public Speaking
+- Team Collaboration
 
 Software:
 
@@ -41,8 +48,29 @@ Software:
 - Axure
 - Oxygen XML Writer
 
-Front-end Development
+Work Experience
 -----------------------
+
+**Education Analyst, Fraser Health**
+April 2016 – Current
+
+Reduced educational materials turn-around time from weeks to days through researching company style guide, effective communication between departments, and design skill.
+
+Responsibilities:
+
+- Responsible for instructional design of web, print, and video educational materials
+- Designed and built SharePoint sites for health technology training & learning subsite
+- Created plans and prototypes to gather requirements and feedback from stakeholders
+- Conducted user tests and interviews with employees to improve learning experience
+
+Technologies used:
+
+- HTML/CSS
+- JavaScript (jQuery)
+- Adobe Photoshop
+- Adobe Illustrator
+- Adobe Captivate
+- Microsoft Excel
 
 **Technical Writer/Developer, FINCAD**
 May 2013 – May 2015
@@ -66,7 +94,7 @@ Technologies used:
 
 - XML & DTD
 - HTML/CSS
-- jQuery (JavaScript)
+- JavaScript (jQuery)
 - Twitter Bootstrap
 - Java
 - C#
