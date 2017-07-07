@@ -7,294 +7,75 @@ tags: root
 
 <p class="dl-file"><a href="../pcclarke_resume.pdf">Download PDF</a></p>
 
-Objective
+
+Summary
 --------------
 
-Versatile designer and interface developer skilled in crafting complexity into elegant user experiences and information design.
+Versatile interface developer and designer experienced in crafting complexity into elegant information architecture and data visualizations seeking front-end development roles.
 
-Skills
---------
-
-Design:
-
-- User Interface
-- User Testing
-- Prototyping
-- User Experience
-- Data Visualization
-
-Development:
-
-- HTML/CSS
-- JavaScript
-- Java
-- C
-- C++
-- C#
-- Python
-
-Communication:
-
-- Technical Writing
-- Instructional Design
-- Copywriting
-- Public Speaking
-- Team Collaboration
-
-Software:
-
-- Adobe Design Suite
-- Balsamiq
-- Axure
-- Oxygen XML Writer
 
 Work Experience
 -----------------------
 
 **Education Analyst, Fraser Health**
-April 2016 – Current
+April 2016 – July 2017
 
-Reduced educational materials turn-around time from weeks to days through researching company style guide, effective communication between departments, and design skill.
+I joined the Learning Services team of Fraser Health on a one-year contract, continuing my interest in health from studying arthritis as a research assistant. My role was to design websites, banners, and educational materials to inform Fraser Health staff about new or changing technologies in health care.
 
-Responsibilities:
+- Wrote a script using jQuery for the Management Centre intranet to generate web application launch buttons across multiple pages, so that when vendors change addresses links could be easily updated
 
-- Responsible for instructional design of web, print, and video educational materials
-- Designed and built SharePoint sites for health technology training & learning subsite
-- Created plans and prototypes to gather requirements and feedback from stakeholders
-- Conducted user tests and interviews with employees to improve learning experience
+- Organized content and created wireframes for the Telehealth (videoconferencing) intranet sub-site, simplifying dozens of pages of sign-up documentation into one step-by-step online process
 
-Technologies used:
+- Created an emergency poster to alert all Fraser Health staff about the WannaCry ransomware that was designed and finalized in hours by rapidly iterating feedback from IT and communications into the design
 
-- HTML/CSS
-- JavaScript (jQuery)
-- Adobe Photoshop
-- Adobe Illustrator
-- Adobe Captivate
-- Microsoft Excel
+- Conducted guerrilla user tests on my own initiative in the Fraser Health offices to learn how effective Learning Services' webpages were, revealing for the first time how staff discovered them
+
+Technologies used: HTML, CSS, JavaScript (jQuery), Adobe Photoshop, Adobe Illustrator, Microsoft SharePoint
 
 **Technical Writer/Developer, FINCAD**
 May 2013 – May 2015
 
-Responsibilities:
+This began as a co-op position to design and contribute to FINCAD’s documentation system for F3, their financial analytics framework. Impressed with my performance, my contract was renewed for 2 years. It grew into a role to maintain and upgrade the documentation system, as well as design other UIs.
 
-- Wrote guide and code samples for SDK product in supported languages
-- Redesigned front-end of documentation, delivered as local HTML pages
-- Updated DTD and Python build scripts for XML documentation files
-- Designed and implemented CMS in Bootstrap for a Django-based app
-- Set up new documentation system using Grunt and Pandoc
-- Authored finance fundamentals guide for novices to product and finance
+- Wrote guide and code samples for using F3 SDK features in Java, C#, and C++. Support calls on those features virtually disappeared
 
-Results:
+- Redesigned layout and appearance of documentation that was generated HTML from XML using Python. Clients were pleased with the changes, calling them “elegant” and "more readable"
 
-- Increased readership of user guides among internal staff and clients
-- Significantly reduced need for training and support calls
-- Freed up developers and quantitative analysts to focus on key tasks
+- Designed and implemented a CMS in Bootstrap for a Django-based web application, completing it well before the features it needed to support were available
 
-Technologies used:
+- Authored documentation in XML for Excel and web API products, translating finance and software development concepts into plain English
 
-- XML & DTD
-- HTML/CSS
-- JavaScript (jQuery)
-- Twitter Bootstrap
-- Java
-- C#
-- C++
-- Python
-- Grunt
-
-
-Data Visualization Design
-------------------------------------
+Technologies used: XML, DTD, LaTeX, Python (Django), Adobe Illustrator, Adobe Photoshop, Axure, C, C++ (Boost), C#, Java, Visual Basic, Visual Studio, HTML, CSS, JavaScript (Bootstrap, jQuery, Grunt), RESTful APIs, Apache Subversion, Git, AWS (Amazon WorkSpaces)
 
 **Visual Analytics Research Assistant, SFU CZLab**
 May 2014 – May 2015
 
-Responsibilities:
+While a research assistant supervised by professor Chris Shaw, I studied how fitness trackers could be used to help people with arthritis. My challenge was to design an interface that would connect patients and health practitioners, showing how much and how often patients need to exercise.
 
-- Sketched arthritis health and fitness data visualization concepts
-- Performed data analysis on Fitbit data using the pandas Python library
-- Designed static and click-through prototypes in Illustrator and Axure
-- Wrote functional prototypes in Processing, JavaFX, and d3.js
-- Gathered requirements from collaborating arthritis research group
+- Designed UI prototypes in Adobe Illustrator, Axure, and Processing that were used to apply for and which won grant funding for my research
 
-Results:
+- Learned how to authenticate the Fitbit API with OAuth 1.0a to access data in web applications and on Android devices, then taught other researchers how to access it
 
-- Created algorithm for parsing raw data into useful information
-- Prototypes critical to successfully winning grant funding
-- Initial user test of design indicated it was easily understandable
+- Performed data analysis with the pandas Python library that specified the goals set by physiotherapists into targets which could be achieved with fitness trackers
 
-Technologies used:
+- Created a functional web application using the d3.js JavaScript library that impressed test participants, senior citizens with arthritis, with how clearly it presented their fitness goals
 
-- Adobe Illustrator
-- Axure
-- Fitbit API (REST)
-- Processing (Java)
-- JavaFX (Java)
-- HTML/CSS
-- D3.js (JavaScript)
-- pandas (Python)
-
-
-**English Farm Prices Visualization**
-Visual Analytics, Spring 2013
-
-Responsibilities:
-
-- Sketched designs and created mockups in Adobe Illustrator
-- Researched appropriate techniques for long time series data
-- Developed visualization in Java with the Processing library
-
-Results:
-
-- Zooming encouraged data exploration and minimized space
-- Used interaction to facilitate exploration and minimize space
-
-Technologies used:
-
-- Processing (Java)
-
-
-Web Design
------------------
+Technologies used: HTML, CSS, JavaScript (D3.js), Java (Processing, JavaFX), RESTful APIs, OAuth, Adobe Illustrator, Axure, Python (Pandas)
 
 **UX Designer, BCcampus**
 May – December 2012
 
-Responsibilities:
+My first co-op term through SFU, my role at BCcampus was to follow the upgrade of ApplyBC (now merged into EducationPlannerBC) to include the online application form for SFU. I contributed to the design, development, and testing of the webpages in the application.
 
-- Designed interactions in wireframes and built click-through prototype
-- Implemented HTML, CSS, and JavaScript to match designs at the pixel
-- Researched, designed, and conducted user test with 8 participants
-- Performed heuristic evaluations and designed personas
-- Wrote report summarizing user test findings in Adobe InDesign
+- Created click-through wireframe prototypes in Balsamiq mockups, and demonstrated them to clients to show how online application would function
 
-Results:
+- Implemented HTML and JavaScript front-end of site to pixel perfect specifications, in addition to documenting and testing GWT widgets written in Java
 
-- Upgraded ApplyBC launched to thousands of users flawlessly
-- Success of upgrade persuaded other institutions to follow suit
-- User test report used as roadmap for next set of upgrades
+- Performed heuristic evaluations, accessibility evaluations, and user tests. The tests were planned thoroughly so that they followed a repeatable script and produced valuable feedback
 
-Technologies used:
+- Edited and co-wrote report summarizing user test findings in Adobe InDesign. Report was well received by management and government, ensuring continued development of ApplyBC
 
-- Balsamiq Mockups
-- Adobe InDesign
-- HTML/CSS
-- GWT (Java)
-- Selenium
-- JavaScript
-
-
-**Lynda.com Mobile Redesign**
-UI Design, Fall 2014
-
-Responsibilities:
-
-- Sketched mockups and created wireframes for mobile web application
-- Wrote user stories and scenarios to generate specifications
-- Conducted guerrilla and think-aloud user testing with 5 participants
-
-Results:
-
-- Users found relevant videos faster than on existing Lynda.com website
-- Report praised for thoroughly identifying and analyzing usability issues
-
-Technologies used:
-
-- Balsamiq
-- Illustrator
-
-
-Work History
-------------------
-
-Technical Writer, 2013-15
-FINCAD
-
-Research Assistant, 2014-15
-SFU CZLab
-
-UX Designer, 2012
-BCcampus
-
-Content Intern, 2011
-BroadbandTV
-
-Shipping Clerk, 2008
-Avail
-
-Grocery Assistant, 2004-07
-Real Canadian Superstore
-
-
-Interactive Object Design
----------------------------
-
-**Sunset Sails**
-Speculative design course, Spring 2014
-
-Responsibilities:
-
-- Collaborated with city staff to design public installation of energy data
-- Accessed natural gas API and connected data to Arduino board
-- Constructed, wired, and coded physical prototypes that visualized data
-
-Results:
-
-- Presentation skills persuaded city staff that project design was feasible
-- Physical prototype connected to live building data via API at showcase
-
-Technologies used:
-
-- Adobe Illustrator
-- InDesign
-- Photoshop
-- Arduino (C)
-- Processing (Java)
-
-
-**Hexboards**
-Speculative design course, Spring 2014
-
-Responsibilities:
-
-- Learned about clients' needs, performing cultural probes and interviews
-- Created posters to communicate research findings with clients & class
-- Organized workshops to refine design using clients' input on prototypes
-
-Results:
-
-- Clients found design useful, improving group communication
-- Lecturer described design as highly creative, appropriate for clients
-
-Technologies used:
-
-- Adobe Illustrator
-- InDesign
-- SketchUp
-
-
-Android Development
--------------------------------
-
-**Benefit Mobile Fitness App**
-Mobile App Design, Fall 2013
-
-Responsibilities:
-
-- Designed interface through iterating wireframes and prototypes
-- Implemented design in Java, and tested to support Android 2.3 and up
-- Wrote methods to authenticate with OAuth 1.0a on Android
-
-Results:
-
-- Functional prototype worked perfectly with user data
-- App design called highly intuitive and simple to use
-
-Technologies used:
-
-- Android SDK
-- Fitbit API (REST)
-- Java
+Technologies used: Balsamiq, Java (GWT), CVS, HTML, CSS, JavaScript (jQuery), Adobe Illustrator, Adobe InDesign, Selenium
 
 
 Education
@@ -305,38 +86,3 @@ Simon Fraser University
 
 BA Economics, 2010, fall 2015
 Simon Fraser University
-
-
-Public Speaking & Leadership
-------------------------------
-
-**Club President, Burnaby Mountain Toastmasters**
-Spring 2009 – Summer 2010
-
-Responsibilities:
-
-- Organized and motivated executive team to facilitate club meetings
-- Mentored and assisted members' growth as public speakers
-- Created events to challenge members' skills and welcome new members
-- Promoted club on campus through advertising and publicity campaigns
-
-Results:
-
-- Grew membership from 10 to 30 people
-- Went from no members with certificates, to nearly 10
-
-
-Volunteer History
---------------------------
-
-Toastmasters, 2008–2012
-
-Rona MS Bike Tour, 2011
-
-Canadian Liver Foundation, 2011
-
-SFU Leadership Summit, 2011
-
-SFU Residence Training, 2010
-
-Economics Student Society, 2008–10
