@@ -1,8 +1,8 @@
 ---
 layout: page
 id: civ
-title: Civilization 4 Technology Poster
-excerpt: A redesign of the technology tree Sid Meier's Civilization 4 for accuracy and clarity.
+title: Civilization 4 Technology Wheel
+excerpt: A redesign of the technology trees in Sid Meier's Civilization for accuracy and clarity.
 permalink: /portfolio/civ/
 tags: portfolio
 ---
@@ -16,6 +16,8 @@ tags: portfolio
         <p>Technologies used:</p>
         <ul>
             <li>Adobe Illustrator</li>
+            <li>Processing (Java)</li>
+            <li>D3.js</li>
         </ul>
     </div>
     <div class="block">
@@ -66,6 +68,15 @@ tags: portfolio
     <div class="block">
         <div class="left">
             <p>Finally, it hit on me to try merging the circle and tree concepts into one: this allowed for me to create a visually clear arrangement for the paths with a minimum amount of space. It also made for a good visual metaphor, showing the progress of technology in game as spokes in a wheel.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="block">
+        <div class="left">
+            <img src="civ_interactive_icons.jpg" class="lesser" />
+        </div>
+        <div class="right">
+            <p>The current interactive version of the technology wheel.</p> 
         </div>
         <div class="clear"></div>
     </div>
