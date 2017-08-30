@@ -7,7 +7,7 @@
 
 # Site settings
 title: Patrick Clarke
-email: ptrckcclrk@gmail.com
+email: pcclarke@sfu.ca
 description: > # this means to ignore newlines until "baseurl:"
   My personal site
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -22,4 +22,3 @@ markdown: kramdown
 
 # Site collections
 collections:
-- portfolio

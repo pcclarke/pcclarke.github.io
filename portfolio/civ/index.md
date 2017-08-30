@@ -10,6 +10,7 @@ tags: portfolio
 <div class="piece">
     <div id="civFeature" class="feature">
         <img src="{{ site.baseurl }}/portfolio/civ/civ_poster_final.jpg" />
+        <p class="link"><a href="http://pcclarke.github.io/civ-techs/">View the Interactive Data Visualization</a></p>
     </div>
     <div class="techs">
         <p>Technologies used:</p>
