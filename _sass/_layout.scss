@@ -13,11 +13,11 @@
     font-family: $base-font-family;
     font-size: 26px;
     line-height: 56px;
-    margin-left: -20px;
+    margin-top: 10px;
     margin-bottom: 0;
     float: left;
     text-transform: none;
-    width: 300px;
+    width: 200px;
     height: 55px;
 
     &,
@@ -26,8 +26,9 @@
     }
     
     @include media-query($on-palm) {
-        margin-left: -5px;
-        width: 200px;
+        margin-top: 10px;
+        width: 150px;
+        height: 35px;
     }
 
 }
@@ -110,6 +111,15 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+
+    a {
+        font-family: $heading-font-family;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 }
 
 .footer-heading {
@@ -216,12 +226,18 @@
  */
 #home {
     display: block;
-    margin: 200px auto 200px auto;
+    margin: 100px auto 100px auto;
     width: 100%;
     
     #lead {
-        width: 102%;
-        margin-left: -13px;
+        .headline {
+            font-family: $heading-font-family;
+            font-size: 44px;
+        }
+
+        .leadbody {
+            width: 650px;
+        }
     }
     
     ul {
@@ -237,7 +253,17 @@
         
         #lead {
             width: 100%;
-            margin: 0px;   
+            margin: 0px;
+
+            .headline {
+                font-size: 30px;
+                line-height: 1.25;
+            }
+
+            .leadbody {
+                padding: 0px 5px;
+                width: 100%;
+            }
         }
 
         h1 {
@@ -250,7 +276,6 @@
 
         p {
             font-size: 1em;
-            text-align: center;
         }
         
         ul {
@@ -285,8 +310,14 @@
     width: 100%;
 }
 
-.link, .caseLink {
+.link, .caseLink a {
+    font-family: $heading-font-family;
     text-transform: uppercase;
+    text-decoration: none;
+}
+
+.caseLink a:hover {
+    text-decoration: underline;
 }
 
 .imageGrid {
@@ -344,6 +375,8 @@ div .piece {
     
     .feature {
         a {
+            font-family: $heading-font-family;
+            text-decoration: none;
             text-transform: uppercase;
         }
         
@@ -458,232 +491,6 @@ div .piece {
         }
     }
 }
-
-/*
-* Resume
-*/
-
-.dl-file {
-    text-transform: uppercase;
-}
-
-#resume {
-    
-    border-top: 1px solid black;
-    
-    h2 {
-        border-bottom: none;
-        font-family: $heading-font-family;
-        font-size: 40px;
-    }
-    
-    h2:nth-of-type(2) {
-        border-top: 20px solid #CCCCCC;
-        padding-top: 10px;
-    }
-
-    h2:nth-of-type(n+3) {
-        border-top: 1px solid black;
-    }
-    
-    h3 {
-        border: none;
-        font-family: $heading-font-family;
-        font-size: $small-font-size;
-        line-height: 18px;
-        margin: 0px;
-    }
-    
-    h4 {
-        border: none;
-        font-family: $heading-font-family;
-        margin: 0px;
-        text-align: center;
-    }
-    
-    ul {
-        font-size: 9px;
-        list-style: disc;
-        margin-left: 13px;
-    }
-
-    .dateRange {
-        font-family: $heading-font-family;
-        font-size: 16px;
-    }
-
-    aside {
-        margin-top: 30px;
-        padding-right: 20px;
-        width: 160px;
-        
-        p, dt, dl {
-            font-size: 16px;
-            line-height: 18px;
-        }
-        
-        p {
-            margin: 0px;
-            font-family: $base-italic-font-family;
-        }
-        
-        dt {
-            font-family: $base-italic-font-family;
-        }
-        
-        dd {
-            font-size: 14px;
-            margin-bottom: 8px;
-            margin-left: 13px;
-        }
-        
-        .liText {
-            font-size: 16px;
-            line-height: 18px;
-            vertical-align: middle;
-        }
-        
-        .leftBlock:first-of-type {
-            margin-top: 0px;
-        }
-        
-        .leftBlock {
-            margin-top: 300px;
-        }
-    }
-    
-    .resCategory {
-        font-family: $base-italic-font-family;
-        margin: 0px;
-    }
-    
-    article {
-        border-left: 1px solid black;
-        float: right;
-        margin-top: 22px;
-        padding-left: 20px;
-        width: 720px;
-        
-        p, dt, dl {
-            font-size: 20px;
-            line-height: 24px;
-        }
-        
-        li {
-            line-height: 24px;
-        }
-        
-        .liText {
-            font-size: 20px;
-            vertical-align: middle;
-        }
-        
-        .split {
-            display: inline-block;
-            margin-bottom: 30px;
-            vertical-align: top;
-            width: 340px;
-        }
-        
-        .split:first-of-type {
-            margin-right: 35px;
-        }
-        
-        .block {
-            display: block;
-            margin-bottom: 25px;
-        }
-        
-        .left {
-            float: left;
-            width: 550px;
-        }
-        
-        .right {
-            float: right;
-            width: 140px;
-            
-            .liText {
-                font-size: 16px;
-            }
-        }
-    }
-    
-    .block {
-        display: block;
-    }
-    
-    
-    @include media-query($on-palm) {
-        
-        h2:nth-of-type(2) {
-            border-top: 1px solid black;
-            padding-top: 10px;
-        }
-        
-        aside {
-            float: none;
-            margin: 0px;
-            padding: 0px;
-            width: 100%;
-            
-            h4 {
-                border-top: 1px solid black !important;
-                font-size: 20px;
-                text-align: left;
-                margin-bottom: 15px;
-            }
-            
-            .leftBlock {
-                margin: 0px;
-            }
-            
-            .liText {
-                font-size: 20px;
-                line-height: 24px;
-            }
-            
-            p, dt, dl, dd {
-                font-size: 20px;
-                line-height: 24px;
-            }
-        }
-
-        
-        article {
-            border: none;
-            margin: 0px;
-            padding: 0px;
-            float: none;
-            width: 100%;
-            
-            .split:first-of-type {
-                margin: 0px;
-            }     
-            
-            .split {
-                display: inline;
-                margin: 0px;
-                width: 100%;
-            }
-            
-            .left {
-                float: none;
-                width: 100%;
-            }
-            
-            .right {
-                float: none;
-                width: 100%;
-                
-                .liText {
-                    font-size: 20px;
-                }
-            }
-        }
-    }
-}
-
 
 
 /**
