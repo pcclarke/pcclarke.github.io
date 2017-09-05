@@ -10,15 +10,30 @@ tags: portfolio
 <div class="piece">
     <div id="applyBC2Feature" class="feature">
         <img src="landing-full.jpg" />
-        <p><a href="applybc_sfu_user_study_report.pdf">Read the ApplyBC SFU user test report</a> (pdf)</p>
     </div>
 
     <div class="block">
-        <div class="left">
+        <div class="overview">
             <h3>Overview</h3>
             <p>During my co-op internship at BCcampus, I worked on a project to upgrade ApplyBC, an online application service for most universities and colleges in British Columbia. This upgrade was just for Simon Fraser University, with other institutions following suit. The upgraded site improved usability and accessibility, as well as styling each application form in the institution’s branding.</p>
+            <h4>Role</h4>
+            <ul>
+                <li>Web Development</li>
+                <li>UX Design</li>
+                <li>User testing</li>
+                <li>Accessibility testing</li>
+            </ul>
+            <h4>Technologies Used</h4>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Java (GWT)</li>
+                <li>Balsamiq Mockups</li>
+                <li>Selenium</li>
+                <li>Adobe InDesign</li>
+            </ul>
+            <p class="link"><a href="applybc_sfu_user_study_report.pdf">Read the ApplyBC SFU user test report</a> (pdf)</p>
         </div>
-        <div class="clear"></div>
     </div>
     
     <div class="block">
@@ -152,26 +167,5 @@ tags: portfolio
     
     <div class="block">
         <img src="paths_s2.jpg" />
-    </div>
-    
-    <div class="techs">
-        <p>Tools used:</p>
-        <ul>
-            <li>HTML/CSS</li>
-            <li>JavaScript</li>
-            <li>GWT (Java)</li>
-            <li>Eclipse</li>
-            <li>Balsamiq Mockups</li>
-            <li>Selenium</li>
-            <li>Adobe InDesign</li>
-        </ul>
-        <p>Skills applied:</p>
-        <ul>
-            <li>Web Development</li>
-            <li>User testing</li>
-            <li>UX Design</li>
-            <li>Information Design</li>
-            <li>Accessibility</li>
-        </ul>
     </div>
 </div>

@@ -11,6 +11,27 @@ tags: portfolio
     <div id="sunsetFeature" class="feature">
         <img src="final_concept.jpg" />
     </div>
+
+    <div class="block">
+        <div class="overview">
+            <h3>Overview</h3>
+            <p>Sunset Sails is a design for data visualization installations around the <a href="http://vancouver.ca/parks-recreation-culture/sunset-community-centre.aspx">Sunset Community Centre</a> in Vancouver, BC. They show how much natural gas the building is using by how much air is being blown through the sails. Visitors in the building can look at the sails to learn about how energy efficient the building is, and can get a real sense of when they should use less energy.</p>
+            <h4>Role</h4>
+            <ul>
+                <li>Physical prototyping</li>
+                <li>Photography</li>
+                <li>Visual design</li>
+                <li>Development</li>
+            </ul>
+            <h4>Technologies Used</h4>
+            <ul>
+                <li>Java (Processing)</li>
+                <li>C (Arduino)</li>
+                <li>XML</li>
+                <li>Adobe Illustrator, InDesign, Photoshop</li>
+            </ul>
+        </div>
+    </div>
     
     <div class="block">
         <div class="left">
@@ -228,25 +249,8 @@ tags: portfolio
             <img src="sunset_model-2.jpg" class="lesser" />
         </div>
         <div class="right">
-            <p>The physical prototype from the side, with the backing of the sails visible and the wires to the (not shown) Arduino board.</p> 
+            <p>The physical prototype from the side, with the backing of the sails visible and the wires to the (not shown) Arduino board.</p>
         </div>
         <div class="clear"></div>
-    </div>
-    
-    <div class="techs">
-        <p>Tools used:</p>
-        <ul>
-            <li>Processing (Java)</li>
-            <li>XML</li>
-            <li>Arduino</li>
-            <li>Adobe Illustrator, InDesign, Photoshop</li>
-        </ul>
-        <p>Skills applied:</p>
-        <ul>
-            <li>Physical prototyping</li>
-            <li>Photography</li>
-            <li>Data visualization</li>
-            <li>Graphic design</li>
-        </ul>
     </div>
 </div>

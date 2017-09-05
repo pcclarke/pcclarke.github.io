@@ -13,25 +13,28 @@ tags: portfolio
     </div>
 
     <div class="block">
+    	<div class="overview">
+            <h3>Overview</h3>
+            <p>A team hackathon project where I contributed an animated map to visualize the scale and speed of overdoses in Connecticut. The team’s goal was to demonstrate how analytics and visualizations could help healthcare users explore overdose data in British Columbia, if such data were available. Eventually, data from Fraser Health did emerge and I made maps of opiate overdoses using it.</p>
+            <h4>Role</h4>
+            <ul>
+            	<li>Data research and analysis</li>
+            	<li>Data visualization design</li>
+            	<li>Front-end development</li>
+        	</ul>
+            <h4>Technologies Used</h4>
+            <ul>
+            	<li>Tableau</li>
+            	<li>JavaScript (D3.js)</li>
+        	</ul>
+        	<p class="link"><a href="https://sophiahe.github.io/FHH/">View Connecticut overdose map animation</a></p>
+        	<p class="link"><a href="http://3pats.ca/2017/01/30/overdose.html">View Fraser Valley overdose map by city</a></p>
+        	<p class="link"><a href="http://3pats.ca/2017/02/21/hospitals.html">View Fraser Valley overdose map by hospital</a></p>
+    	</div>
+	</div>
+
+    <div class="block">
         <div class="left">
-        	<div class="overview">
-	            <h3>Overview</h3>
-	            <p>A team project where I contributed an animated map to visualize the scale and speed of overdoses in Connecticut. The team’s goal was to demonstrate how analytics and visualizations could help healthcare users explore overdose data in British Columbia, if such data were available. Eventually, data from Fraser Health did emerge and I made maps of opiate overdoses using it.</p>
-	            <h4>Role</h4>
-	            <ul>
-	            	<li>Data research and analysis</li>
-	            	<li>Data visualization design</li>
-	            	<li>Front-end development</li>
-	        	</ul>
-	            <h4>Technologies Used</h4>
-	            <ul>
-	            	<li>Tableau</li>
-	            	<li>JavaScript (D3.js)</li>
-	        	</ul>
-	        	<p class="link"><a href="https://sophiahe.github.io/FHH/">View Connecticut overdose animation</a></p>
-	        	<p class="link"><a href="http://3pats.ca/2017/01/30/overdose.html">View map of overdoses in the Fraser Valley by city</a></p>
-	        	<p class="link"><a href="http://3pats.ca/2017/02/21/hospitals.html">View map of overdoses in the Fraser Valley by hospital</a></p>
-        	</div>
             <h3>Hacking for Health</h3>
             <p>In January 2017, I attended the two-day <a href="https://www.healthhackathon.ca">Health Hackathon</a> organized by Fraser Health at the Surrey SFU campus. Although I was an employee of Fraser Health at the time, I attended as a participant by myself. I offered myself out as a designer for hire, and wound up working with a team of six data science students at SFU. Having mostly worked either by myself or with developers up until then, I was excited to work with people who knew much more about data than I did. The challenge they selected was related to the opiate/fentanyl crisis:</p>
             <p class="quote">Overdose Analytics: Fraser Health Authority is facing the challenge of targeting their resources in the midst of unpredictable but growing waves of overdoses. Information on overdoses is distributed through siloed channels making it difficult to produce actionable intelligence on overdoses in the region. Such information is useful to medical professionals, social services and other government bodies.</p>

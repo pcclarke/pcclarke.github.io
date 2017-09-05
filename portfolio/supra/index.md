@@ -11,16 +11,39 @@ tags: portfolio
     <div id="supraFeature" class="feature">
         <img src="supra_final.jpg" />
     </div>
+
     <div class="block">
-        <div class="left">
+        <div class="overview">
             <h3>Overview</h3>
             <p>Fitbit for Arthritis (formally SuPRA, an acronym I refuse to use) is my design for a web application featuring a data visualization that helps arthritis sufferers improve their health, and it allows health practitioners to support them. The data visualization steers users towards goals set by their health practitioner, helping them achieve an optimal amount of exercise to maintain their mobility and minimize pain. The application also includes some support for a social support group and logging, which are also shared with health practitioners.</p>
+            <h4>Role</h4>
+            <ul>
+                <li>Visual design</li>
+                <li>Data analysis</li>
+                <li>Development</li>
+            </ul>
+            <h4>Technologies Used</h4>
+            <ul>
+                <li>Axure</li>
+                <li>Adobe Illustrator</li>
+                <li>Java (Processing, JavaFX)</li>
+                <li>HTML/CSS</li>
+                <li>JavaScript (D3.js)</li>
+                <li>Python (pandas)</li>
+            </ul>
+            <p class="link"><a href="demo/index.html">View Fitbit for Arthritis demo</a></p>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="left">
             <h3>The open-ended spec</h3>
             <p>This was a project I worked on for my last two years in SIAT, which started as a directed studies course with Professor <a href="http://www.sfu.ca/~shaw/">Chris Shaw</a> and then grew into a research assistant position in his lab. The concept as presented was straightforward: create data visualizations based on Fitbit data to encourage people with arthritis to get more exercise. These would be used by physiotherapists to monitor and assist their patients’ health.</p>
             <p>My first task was to determine what this project would become. I had a huge amount of room to work within, and a challenging goal. Fitbit already has a perfectly decent dashboard, and it’s already helped me get more exercise. What would a dashboard for arthritis sufferers look like, and what features would it have? My approach was to sketch like mad, and empty out of my head whatever ideas I could think up about an arthritis visualization.</p>
         </div>
         <div class="clear"></div>
     </div>
+
     <div class="block imageGrid">
         <img src="supra_sketch-1.jpg" />
         <img src="supra_sketch-2.jpg" />
@@ -290,28 +313,5 @@ tags: portfolio
     
     <div class="block">
         <img src="supra_diagram.jpg" />
-    </div>
-
-    <div class="techs">
-        <p>Tools used:</p>
-        <ul>
-            <li>Axure</li>
-            <li>Adobe Illustrator</li>
-            <li>Processing (Java)</li>
-            <li>JavaFX (Java)</li>
-            <li>HTML/CSS</li>
-            <li>d3.js (JavaScript)</li>
-            <li>pandas (Python)</li>
-            <li>Eclipse</li>
-        </ul>
-        
-        <p>Skills applied:</p>
-        <ul>
-            <li>Data visualization</li>
-            <li>Graphic design</li>
-            <li>UI Design</li>
-            <li>Java Development</li>
-            <li>Web Development</li>
-        </ul>
     </div>
 </div>

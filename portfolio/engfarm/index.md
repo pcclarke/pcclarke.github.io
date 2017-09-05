@@ -8,18 +8,28 @@ tags: portfolio
 ---
 
 <div class="piece">
-    <h3 id="engfarm">English Farm Prices History</h3>
     <div id="engfarmFeature" class="feature">
         <img src="{{ site.baseurl }}/portfolio/engfarm/engfarm_final.jpg" />
-        <p class="link"><a href="demo/index.html">View the Interactive Data Visualization</a></p>
     </div>
-    <div class="techs">
-        <p>Technologies used:</p>
-        <ul>
-            <li>Processing (Java)</li>
-            <li>Microsoft Excel</li>
-        </ul>
+
+    <div class="block">
+        <div class="overview">
+            <h3>Overview</h3>
+            <p>An individual course project where I created a data visualization to show historic English agricultural goods data. Used bandlines and multiple time plots to facilitate exploration and comparison.</p>
+            <h4>Role</h4>
+            <ul>
+                <li>Visual design</li>
+                <li>Development</li>
+            </ul>
+            <h4>Technologies Used</h4>
+            <ul>
+                <li>Java (Processing)</li>
+                <li>Microsoft Excel</li>
+            </ul>
+            <p class="link"><a href="demo/index.html">View the Interactive Data Visualization</a></p>
+        </div>
     </div>
+
     <div class="block">
         <div class="left">
             <p>For my final project in my introductory visual analytics course, the assignment was to create an interactive data visualization of my choice. Of course, the challenge when you can do just about anything is settling on a topic. Being a history buff I first tried to visualize the data set of long-term city demographics in Tertius Chandler’s book Four Thousand Years of Urban Growth. My first sketches were promising, but I was soon taught a hard lesson in acquiring data: transcribing data sets by hand is time consuming.</p>         
