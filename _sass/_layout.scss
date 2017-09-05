@@ -310,7 +310,7 @@
     width: 100%;
 }
 
-.link, .caseLink a {
+.link a, .caseLink a {
     font-family: $heading-font-family;
     text-transform: uppercase;
     text-decoration: none;
@@ -400,11 +400,6 @@ div .piece {
     
     .left {
         float: left;
-        
-        a {
-            font-family: $base-font-family;
-            text-decoration: underline;
-        }
         
         img {
             display: block;
