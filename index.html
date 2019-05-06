@@ -89,7 +89,11 @@ layout: home
 	            <p class="caseLink"><a href="{{ site.baseurl }}/portfolio/dingbats/">Read more</a></p>
 	        </div>
 	        <div class="rightPort">
-	            <img src="{{ site.baseurl }}/portfolio/dingbats/dingbats-home.jpg" />
+				<picture>
+				  <source media="(max-width: 799px)" srcset="{{ site.baseurl }}/portfolio/dingbats/dingbats-home-600w.jpg">
+				  <source media="(min-width: 800px)" srcset="{{ site.baseurl }}/portfolio/dingbats/dingbats-home-1200w.jpg">
+				  <img src="{{ site.baseurl }}/portfolio/dingbats/dingbats-home-600w.jpg" />
+				</picture>
 	        </div>
 	        <div class="clear"></div>
 	    </div>
