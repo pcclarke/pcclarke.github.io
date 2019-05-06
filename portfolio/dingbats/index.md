@@ -9,7 +9,11 @@ tags: portfolio
 
 <div class="piece">
     <div id="dingbatsFeature" class="feature">
-        <img src="{{ site.baseurl }}/portfolio/dingbats/dingbats-p2.jpg" />
+        <picture>
+          <source media="(max-width: 799px)" srcset="dingbats-p2-1000w.jpg">
+          <source media="(min-width: 800px)" srcset="dingbats-p2-2000w.jpg">
+          <img src="dingbats-p2-1000w.jpg" class="lesser" />
+        </picture>
     </div>
 
     <div class="block">
@@ -39,7 +43,11 @@ tags: portfolio
 
     <div class="block">
         <div class="left">
-            <img src="dingbats-sketch-1.jpg" class="lesser" />
+            <picture>
+              <source media="(max-width: 799px)" srcset="dingbats-sketch-1-600w.jpg">
+              <source media="(min-width: 800px)" srcset="dingbats-sketch-1-1200w.jpg">
+              <img src="dingbats-sketch-1-600w.jpg" class="lesser" />
+            </picture>
         </div>
         <div class="right">
             <p>An early sketch experimenting with the layout.</p>
@@ -56,7 +64,11 @@ tags: portfolio
 
     <div class="block">
         <div class="left">
-            <img src="dingbats-sketch-2.jpg" class="lesser" />
+            <picture>
+              <source media="(max-width: 799px)" srcset="dingbats-sketch-2-600w.jpg">
+              <source media="(min-width: 800px)" srcset="dingbats-sketch-2-1200w.jpg">
+              <img src="dingbats-sketch-2-600w.jpg" class="lesser" />
+            </picture>
         </div>
         <div class="right">
             <p>A later sketch, where I'm honing in on the text positioning.</p>
@@ -73,7 +85,11 @@ tags: portfolio
 
     <div class="block">
         <div class="left">
-            <img src="dingbats-test.jpg" class="lesser" />
+            <picture>
+              <source media="(max-width: 799px)" srcset="dingbats-test-600w.jpg">
+              <source media="(min-width: 800px)" srcset="dingbats-test-1200w.jpg">
+              <img src="dingbats-test-600w.jpg" class="lesser" />
+            </picture>
         </div>
         <div class="right">
             <p>A test print to make sure the colours I've picked look good and are displaying correctly.</p>
