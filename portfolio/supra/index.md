@@ -15,7 +15,7 @@ tags: portfolio
     <div class="block">
         <div class="overview">
             <h3>Overview</h3>
-            <p>Fitbit for Arthritis (formally SuPRA, an acronym I refuse to use) is my design for a web application featuring a data visualization that helps arthritis sufferers improve their health, and it allows health practitioners to support them. The data visualization steers users towards goals set by their health practitioner, helping them achieve an optimal amount of exercise to maintain their mobility and minimize pain. The application also includes some support for a social support group and logging, which are also shared with health practitioners.</p>
+            <p>Fitbit for Arthritis is my design for a web application featuring a data visualization that helps arthritis sufferers improve their health, and it allows health practitioners to support them. The data visualization steers users towards goals set by their health practitioner, helping them achieve an optimal amount of exercise to maintain their mobility and minimize pain. The application also includes some support for a social support group and logging, which are also shared with health practitioners.</p>
             <h4>Role</h4>
             <ul>
                 <li>Visual design</li>
@@ -58,7 +58,7 @@ tags: portfolio
         <img src="supra_sketch-11.jpg" />
         <img src="supra_sketch-12.jpg" />
     </div>
-    
+
     <div class="block">
         <div class="left">
             <h3>Digging in</h3>
@@ -67,7 +67,7 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block imageGrid">
         <img src="supra_sketch-13.jpg" />
         <img src="supra_sketch-14.jpg" />
@@ -85,25 +85,25 @@ tags: portfolio
         <img src="supra_sketch-26.jpg" />
         <img src="supra_sketch-27.jpg" />
     </div>
-    
+
     <div class="block">
         <div class="left">
             <p>Of course I wasn’t just designing a calendar, I was designing an interactive data visualization calendar. Calendars already a social medium—we give our time to others—and I was exploring how to use them as a social medium for data visualization. The foundational unit of a calendar is the day, the square box representing one unit of time. In my sketches, I turned the static days into interactive cards. Each day could be treated like a card that users can manipulate or share with others.</p>
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <img src="supra_sketch-full.jpg" class="lesser" />
     </div>
-            
+
     <div class="block">
         <div class="left">
             <p>During this time, I learned how to access the Fitbit API, which allowed me to create a few simple prototypes in Processing. I used these simple prototypes to test out my designs, and experiment with different forms of interaction. Around the lab I felt like Johnny Appleseed of the Fitbit API, helping others get access to the API for their own research projects by teaching them about RESTful APIs and OAuth.</p>
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="imageGrid">
             <img src="proc-proto-1.jpg" />
@@ -111,18 +111,18 @@ tags: portfolio
             <img src="proc-proto-3.jpg" />
         </div>
     </div>
-    
+
     <div class="block">
         <img src="proc-proto-rec3.gif" />
     </div>
-    
+
     <div class="block">
         <div class="left">
             <h3>Seniors betting on their health. Yes, really.</h3>
-            <p>It was at this time that we came up with one of the wackier ideas for the project, gambling. Concerned that we didn’t have enough of a motivation for users, my supervisor suggested a monetary incentive. With my economics background, it didn’t take long for me to think up with a gambling system.</p> 
+            <p>It was at this time that we came up with one of the wackier ideas for the project, gambling. Concerned that we didn’t have enough of a motivation for users, my supervisor suggested a monetary incentive. With my economics background, it didn’t take long for me to think up with a gambling system.</p>
         </div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <img src="supra_bet-1.jpg" class="lesser" />
@@ -132,14 +132,14 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <p>Users could bet on each other’s success at hitting a specified number of steps per day. If they are successful, they collect the money. But to make the gambling friendly, a loss does not go to the other users–we don’t want them discouraging each other! Instead, users pick a charity of their choice, with the money lost going to that charity. That way the incentives create win-win situation: even if a user misses their goal, the money goes to a cause they support. That is, unless they pick a charity they don’t support for extra motivation…</p> 
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="imageGrid">
             <img src="supra_bet-2.jpg" />
@@ -147,11 +147,11 @@ tags: portfolio
             <img src="supra_bet-4.jpg" />
         </div>
     </div>
-    
+
     <div class="block">
         <img src="supra_bet-full.jpg" />
     </div>
-    
+
     <div class="block">
         <div class="left">
             <h3>Plentiful prototypes</h3>
@@ -159,17 +159,17 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <img src="fit_mockup1.jpg" class="lesser" />
         </div>
         <div class="right">
-            <p>A high-fidelity mockup of the calendar layout. Selecting a day brings up the panel in the centre, loosely inspired by iTunes' album display.</p> 
+            <p>A high-fidelity mockup of the calendar layout. Selecting a day brings up the panel in the centre, loosely inspired by iTunes' album display.</p>
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <img src="fit_mockup2.jpg" class="lesser" />
@@ -179,7 +179,7 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <img src="fit_mockup3.jpg" class="lesser" />
@@ -189,14 +189,14 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-            
+
     <div class="block">
         <div class="left">
             <p>The physiotherapists were pleased with the Illustrator designs, especially when they proved to be useful obtaining grant money. While it was nice that they liked the designs, I felt uncomfortable going for so long without in-depth feedback from anyone other than my supervisor. I took the Illustrator designs and used them as a base to create an interactive prototype in Axure. Then using the exported Axure webpage, I inserted one of the simple Processing sketches I had made to fully mock up the design. This came very close to being a fully functional interactive prototype, which gave me a good sense of how all the pieces could fit together.</p>
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <img src="axure-proto-rec3.gif" />
     </div>
@@ -208,7 +208,7 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <img src="in_progress1.jpg" class="lesser" />
@@ -218,21 +218,21 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-            
+
     <div class="block">
         <img src="proc-proto-rec1.gif" />
     </div>
     <div class="block">
         <img src="proc-proto-rec2.gif" />
     </div>
-            
+
     <div class="block">
         <div class="left">
             <p>Since I wasn’t able to get as much feedback as I liked from the physiotherapists, and I didn’t have the time to find seniors with arthritis for user testing, I went to the next best thing: my mom. Conveniently (for me, not her) she suffers from arthritis in the hip, making her a perfect candidate for collecting data and testing with.</p> 
             <p>In the research I had done earlier, I read that Fitbit had difficulty tracking irregular steps. I picked up the pandas library for Python, and started playing around with my mom’s data. I noticed that there did seem to be more gaps of inactivity in my mom’s data, which made it difficult to draw as a time plot. The gaps were so small that the pixels blobbed together on screen. I tried to chunk together the data into blocks of activity. This was interesting enough that I made it into an experimental visualization. The blocks of activity were visualized as circles, and I modified the gambling goals into lines for the circles to match in size.</p>
         </div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <img src="supra_take2.jpg" class="lesser" />
@@ -242,7 +242,7 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <h3>The value of criticism</h3>
@@ -251,17 +251,17 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
         <div class="block">
         <div class="left">
             <img src="fitbit_flower.jpg" class="lesser" />
         </div>
         <div class="right">
-            <p>The flower visualization on the Fitbit One. I think this is what it looks like when you've hit your daily goal, but there may still be more room at the "top".</p> 
+            <p>The flower visualization on the Fitbit One. I think this is what it looks like when you've hit your daily goal, but there may still be more room at the "top".</p>
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <p>Surprisingly, the one thing I made that did go over well was the experimental visualization. When the physiotherapists saw this, they exclaimed in unison “that’s it!” It turned out that showing activity in chunks was not only what they had wanted, but that there was even a formal definition for what constituted a bout of activity for physiotherapy. The entire discussion at the meeting pivoted to how we could make this visualization work, as it had gone from being a cute experiment to vital for the project’s success. It was like I had somehow read their minds.</p>
@@ -269,7 +269,7 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <div class="left">
             <h3>On a track</h3>
@@ -278,7 +278,7 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-            
+
     <div class="block">
         <div class="imageGrid">
             <img src="supra_sketch-late-08.jpg" />
@@ -289,20 +289,20 @@ tags: portfolio
             <img src="supra_sketch-late-31.jpg" />
         </div>
     </div>
-            
+
     <div class="block">
         <div class="left">
             <p>In a bit of serendipity, I went to the library to do some research, where I found a book on health care architecture. The simple, lively colours used there inspired me to experiment with much more minimalist forms. And yet, they almost perfectly achieved what the physiotherapists were looking for. I communicated activity and inactivity with just two colours, and whether that was good or bad with solid or stripes. My favourite touch was the use of “shadows” from the bars to indicate cool down times when users should take a break from exercise. When my supervisor and the physiotherapists saw them, they were very pleased with the designs.</p>
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <img src="minimalist-1.jpg" />
         <img src="minimalist-2.jpg" />
         <img src="minimalist-3.jpg" />
     </div>
-    
+
     <div class="block">
         <div class="left">
             <h3>Results</h3>
@@ -310,7 +310,7 @@ tags: portfolio
         </div>
         <div class="clear"></div>
     </div>
-    
+
     <div class="block">
         <img src="supra_diagram.jpg" />
     </div>
