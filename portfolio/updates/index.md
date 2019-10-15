@@ -76,6 +76,13 @@ tags: portfolio
 
     <div class="block">
         <div class="left">
+            <p>No React visualization library at the time featured such a visualization, so I wrote it myself. The visualization was built as a React component, using data sent to it from a PHP backend via Redux and Axios. My biggest challenge was making sure that the visualization could correctly handle large and small ranges of data. I made sure that the colours and shapes could adjust correctly for whatever data was passed in, and wrote automated tests to handle all manner of unusual inputs.</p>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="block">
+        <div class="left">
             <img src="updates_scaled.jpg" class="lesser" />
         </div>
         <div class="right">
