@@ -5,7 +5,7 @@ layout: home
 <div id="home">
     <div id="lead">
     	<p class="headline">I like making user interfaces and interactive data visualizations.</p>
-    	<p class="leadbody">I'm a UX developer with a background in economics who designs and develops interfaces. I'm looking for data-driven projects where I can contribute my full range of analysis, design, and software development skills. <a href="mailto:pcclarke@sfu.ca">Get in touch</a>.</p>
+    	<p class="leadbody">I'm a UX developer with a background in economics who designs and develops interfaces. I'm looking for data-driven projects where I can contribute my full range of analysis, design, and software development skills. <a href="mailto:ptrckcclrk@gmail.com">Get in touch</a>.</p>
 	</div>
 
     <div class="piece">
